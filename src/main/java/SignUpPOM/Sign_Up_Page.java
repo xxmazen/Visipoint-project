@@ -15,7 +15,7 @@ public class Sign_Up_Page extends Test_Base {
     By signUPButton = By.cssSelector("[class=\"register-redirect\"]");
     By visipointPassportButton = By.xpath("(//*[@class=\"icon-wrapper\"])[1]");
     By firstName = By.id("first_name");
-    By lastName = By.id("form.last_name");
+    By lastName = By.id("last_name");
     By email = By.id("email");
     By phoneNumber = By.id("phone");
     By registrationButton = By.cssSelector("[type=\"submit\"]");
@@ -269,6 +269,16 @@ public class Sign_Up_Page extends Test_Base {
            verifyFunctionalityWhenUserEnterValidCredentialsForCompanyPassport(FirstName, LastName, ValidEmail, ValidPhone);
            click(nextButton);
            enterText(companyName, CompanyName);
+       } catch (Exception e) {
+           logError("Error during test execution:" + e.getMessage());
+       }
+       return this;
+   }
+
+   public Sign_Up_Page navigateToCompanySignUpSecondStep(String FirstName, String LastName, String ValidEmail, String ValidPhone) {
+       try {
+           verifyFunctionalityWhenUserEnterValidCredentialsForCompanyPassport(FirstName, LastName, ValidEmail, ValidPhone);
+           click(nextButton);
        } catch (Exception e) {
            logError("Error during test execution:" + e.getMessage());
        }

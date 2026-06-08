@@ -129,7 +129,7 @@ public class signUP {
     public void navigateToCompanySignUpPage() {
         new Sign_Up_Page(driver)
                 .navigateToCompanySignUpPage()
-                .isUserNavigateToSignUpPage("https://www.visipoint.me/register");
+                .isUserNavigateToSignUpPage("register");
     }
 
     @Test(priority = 14)
@@ -153,8 +153,8 @@ public class signUP {
                 .isNextButtonDisabled();
     }
 
-   @Test (priority = 17) // Debugger
-   public void verifyWhenUserEnterEmailAlreadyExistForCompanyPassport() {
+    @Test(priority = 17)
+    public void verifyWhenUserEnterEmailAlreadyExistForCompanyPassport() {
        new Sign_Up_Page(driver)
                .verifyFunctionalityWhenUserEntersEmailAlreadyExist("Mazen", "Mohamed", "m.mohamed@lamasatech.com" )
                .isEmailAlreadyExistsErrorDisplayed();
@@ -198,79 +198,81 @@ public class signUP {
                 .isNextButtonDisabled();
     }
 
-    @Test(priority = 21)
+    @Test(priority = 23)
     public void verifyNextButtonDisabledWithOnlyLastNameForCompanyPassport() {
         new Sign_Up_Page(driver)
                 .verifyFunctionalityWhenUserEntersLastNameOnlyForCompanyPassport("Mohamed")
                 .isNextButtonDisabled();
     }
 
-    @Test(priority = 22)
+    @Test(priority = 24)
     public void verifyNextButtonDisabledWithOnlyEmailForCompanyPassport() {
         new Sign_Up_Page(driver)
                 .verifyFunctionalityWhenUserEntersEmailOnlyForCompanyPassport("m.mohamed+9820@lamasatech.com")
                 .isNextButtonDisabled();
     }
 
-    @Test(priority = 23)
+    @Test(priority = 25)
     public void verifyNextButtonDisabledWithOnlyPhoneForCompanyPassport() {
         new Sign_Up_Page(driver)
                 .verifyFunctionalityWhenUserEntersPhoneOnlyForCompanyPassport("0123456789")
                 .isNextButtonDisabled();
     }
 
-    @Test(priority = 24)
+    @Test(priority = 26)
     public void verifyNextButtonDisabledWithNamesOnlyForCompanyPassport() {
         new Sign_Up_Page(driver)
                 .verifyFunctionalityWhenUserEntersNamesOnlyForCompanyPassportFirstStep("Mazen", "Mohamed")
                 .isNextButtonDisabled();
     }
 
-    @Test(priority = 25)
+    @Test(priority = 27)
     public void verifyNextButtonDisabledWithNamesAndEmailButNoPhoneForCompanyPassport() {
         new Sign_Up_Page(driver)
                 .verifyFunctionalityWhenUserEntersNamesAndEmailForCompanyPassport("Mazen", "Mohamed", "m.mohamed+9820@lamasatech.com")
                 .isNextButtonDisabled();
     }
 
-    @Test(priority = 26)
+    @Test(priority = 28)
     public void verifyNextButtonDisabledWithNamesAndPhoneButNoEmailForCompanyPassport() {
         new Sign_Up_Page(driver)
                 .verifyFunctionalityWhenUserEntersNamesAndPhoneForCompanyPassport("Mazen", "Mohamed", "0123456789")
                 .isNextButtonDisabled();
     }
 
-    @Test(priority = 27)
+    @Test(priority = 29)
     public void verifyFunctionalityWhenUserEntersValidPhoneNumberForCompanyPassport() {
         new Sign_Up_Page(driver)
                 .verifyFunctionalityWhenUserEnterValidCredentialsForCompanyPassport("Mazen", "Mohamed", "m.mohamed+9820@lamasatech.com", "+201234567890")
                 .isNextButtonEnabled();
     }
 
-    @Test(priority = 28)
+    @Test(priority = 30)
     public void verifyNextButtonEnabledWhenUserEntersCharactersInPhoneNumberForCompanyPassport() {
         new Sign_Up_Page(driver)
                 .verifyFunctionalityWhenUserEntersCharactersInPhoneNumberForCompanyPassport("Mazen", "Mohamed", "m.mohamed+9820@lamasatech.com", "abcdef")
                 .isNextButtonEnabled();
     }
 
-    @Test(priority = 29)
+    @Test(priority = 31)
     public void verifyHeaderTitleOnCompanySignUpPage() {
         new Sign_Up_Page(driver)
                 .navigateToCompanySignUpPage()
                 .isHeaderTitleDisplayed("COMPANY ACCOUNT");
     }
 
-    @Test(priority = 30)
+    @Test(priority = 32)
     public void verifyUserCanNavigateToLoginFromCompanySignUpPage() {
         new Sign_Up_Page(driver)
                 .clickLoginLinkOnCompanySignUpPage()
                 .isUserNavigatedToLoginPage();
     }
 
-    @Test(priority = 31)
+    @Test(priority = 33)
     public void verifyRegistrationButtonDisabledWhenCompanyNameIsEmptyOnSecondStep() {
-        new Sign_Up_Page(driver);
+        new Sign_Up_Page(driver)
+                .navigateToCompanySignUpSecondStep("Mazen", "Mohamed", "m.mohamed+9820@lamasatech.com", "0123456789")
+                .isRegistrationButtonForCompanyDashboardDisabled();
     }
 
     @AfterMethod(alwaysRun = true)

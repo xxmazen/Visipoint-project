@@ -162,10 +162,10 @@ public class Login_Page extends Test_Base {
         Assert.assertEquals(getElementText(ValidationMessageForPhoneNumberField), ExpectedResult, "Should display an error message indicating that the email address is invalid");
     }
     public void isPhoneNumberRadioButtonDisabled () {
-        Assert.assertFalse(driver.findElement(PhoneNumberRadioButton).isDisplayed(), "Phone number radio button should be displayed on the forgot password page");
+        Assert.assertFalse(driver.findElement(PhoneNumberRadioButton).isEnabled(), "Phone number radio button should be disabled on the forgot password page");
     }
     public void isEmailRadioButtonDisabled () {
-        Assert.assertFalse(driver.findElement(EmailRadioButton).isDisplayed(), "Email radio button should be displayed on the forgot password page");
+        Assert.assertFalse(driver.findElement(EmailRadioButton).isEnabled(), "Email radio button should be disabled on the forgot password page");
     }
     public void isOtpMessageDisplayed(String ExpectedResult) {
         Assert.assertEquals(getElementText(BVC), ExpectedResult, "Should display a message indicating that an SMS with a 6 digit code has been sent to the user");

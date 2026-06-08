@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration packages="org.apache.logging.log4j.core">
+    <Properties>
+        <Property name="log.path">logs</Property>
+        <Property name="log.pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%t] %logger{36} - %msg%n</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${log.pattern}"/>
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+        </Console>
+
+        <!-- File Appender for All Logs -->
+        <File name="FileAppender" fileName="${log.path}/visipoint-all.log">
+            <PatternLayout pattern="${log.pattern}"/>
+        </File>
+
+        <!-- File Appender for Error Logs -->
+        <File name="ErrorFileAppender" fileName="${log.path}/visipoint-errors.log">
+            <PatternLayout pattern="${log.pattern}"/>
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+        </File>
+
+        <!-- Rolling File Appender for Daily Rotation -->
+        <RollingFile name="RollingFileAppender" fileName="${log.path}/visipoint-app.log"
+                     filePattern="${log.path}/visipoint-app-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout pattern="${log.pattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+
+        <!-- Async Appender for Better Performance -->
+        <Async name="AsyncAppender">
+            <AppenderRef ref="RollingFileAppender"/>
+        </Async>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileAppender"/>
+            <AppenderRef ref="AsyncAppender"/>
+        </Root>
+
+        <!-- Selenium Logger -->
+        <Logger name="org.openqa.selenium" level="WARN"/>
+
+        <!-- TestNG Logger -->
+        <Logger name="org.testng" level="INFO"/>
+
+        <!-- Your Application Loggers -->
+        <Logger name="Visipoint" level="DEBUG"/>
+        <Logger name="Listeners" level="DEBUG"/>
+
+        <!-- SLF4J Logger -->
+        <Logger name="org.slf4j" level="INFO"/>
+    </Loggers>
+</Configuration>
+

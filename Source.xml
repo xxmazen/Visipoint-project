@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Visipoint Test Suite">
+    <test name="Visipoint Tests">
+        <classes>
+           <class name="Visipoint.loginTestCases">
+           </class>
+           <class name="Visipoint.SignUpTestCases">
+           </class>
+        </classes>
+    </test>
+</suite>

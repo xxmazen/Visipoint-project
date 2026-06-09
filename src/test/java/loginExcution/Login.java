@@ -18,7 +18,7 @@ public class Login {
     public void setUp() {
         try {
             driver = new ChromeFactory()
-                     .setupDriver();
+                      .setupDriver();
             testBase = new Test_Base(driver);
             LocalDateTime startTime = LocalDateTime.now();
             testBase.logInfo("Test execution started at: " + startTime);

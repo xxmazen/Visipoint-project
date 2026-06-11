@@ -49,12 +49,24 @@ public class PassportPage {
         new Passport_Page(driver)
                 .isQuickPassDisplayed("My QuickPass");
     }
-  @Test
+  @Test (priority = 3)
     public void VerifyThatThereIsButtonsNamedMyEntryLogsAndExpectedVisits() {
         new Passport_Page(driver)
-                .isThereIsButtonsNamedMyentrylogsAndExpectedvisits();
+                .isThereIsButtonsNamedMyentrylogsAndExpectedvisits("My entry Logs","Expected visits");
     }
-
+ @Test (priority = 4)
+    public void VerifyThatTheUserCanNavigateToMyEntryLogsPage() {
+       new Passport_Page(driver)
+               .verifyFunctionalityWhenUserClickOnEditMyData()
+               .isPencilButtonDisplayed();
+    }
+  @Test (priority = 5)
+    public void VerifyThatTheSaveButtonIsDisabledWhenUserClearDataFromFirstNameField() {
+        new Passport_Page(driver)
+                .verifyFunctionalityWhenUserClickOnEditMyData()
+                .verifySaveButtonFunctionalityWhenUserClearDataFromFirstNameField()
+                .isSaveButtonDisabled();
+    }
  // TearDown
 
     @AfterMethod (alwaysRun = true)

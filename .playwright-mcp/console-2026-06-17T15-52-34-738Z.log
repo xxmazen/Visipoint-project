@@ -1,0 +1,31 @@
+[     535ms] [WARNING] quill Overwriting modules/magicUrl with function t(e,n){var r=this;!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.quill=e,n=n||{},this.options=d(d({},f),n),this.urlNormalizer=function(t){return r.normalize(t)},this.mailNormalizer=function(t){return"mailto:".concat(t)},this.registerTypeListener(),this.registerPasteListener(),this.registerBlurListener()} @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:311
+[     575ms] [WARNING] Tracking code is missing. Clarity will not be initialized. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[     585ms] [LOG] Socket connected:  false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[     623ms] [ERROR] Error: <path> attribute d: Expected number, "… 2.27861 12.4233C2.16267 12.3648…". @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:78
+[     625ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[     625ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[     713ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[    1033ms] [WARNING] W0019 - DevExtreme: Unable to Locate a Valid License Key.
+
+Detailed license/registration related information and instructions: https://js.devexpress.com/Documentation/Licensing/.
+
+If you are using a 30-day trial version of DevExtreme, you must uninstall all copies of DevExtreme once your 30-day trial period expires. For terms and conditions that govern use of DevExtreme UI components/libraries, please refer to the DevExtreme End User License Agreement: https://js.devexpress.com/EULAs/DevExtremeComplete.
+
+To use DevExtreme in a commercial project, you must purchase a license. For pricing/licensing options, please visit: https://js.devexpress.com/Buy.
+
+If you have licensing-related questions or need help with a purchase, please email clientservices@devexpress.com.
+
+For additional information on this warning message, see: https://js.devexpress.com/error/23_2/W0019 @ https://visipoint.uk/widgets/react-survey-widget.iife.js:175
+[    1972ms] [LOG] WebSocket connected. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    3627ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/widget.css?10.6.7 ... @ :732
+[    3628ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/theme1.css?10.6.7 ... @ :735
+[    3628ms] [LOG] loading script https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true @ :783
+[    3628ms] [LOG] Requesting  https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true  as csp @ :804
+[    4609ms] [DIR] undefined @ /imports/modules/tool.guides/widget/client/redux/helpers/init.default.action.helper.js:0
+[   74047ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api-survey.visipoint.me/api/v1/surveys/a55f5acd-1c27-4e36-aaaf-ec1b394765e3:0
+[   74049ms] [ERROR] Error activateing survey: AxiosError: Request failed with status code 400
+    at M4 (https://visipoint.uk/widgets/react-survey-widget.iife.js:11:1092)
+    at XMLHttpRequest.I (https://visipoint.uk/widgets/react-survey-widget.iife.js:11:5962)
+    at ZQ.request (https://visipoint.uk/widgets/react-survey-widget.iife.js:13:2097)
+    at async Object.updateSurvey (https://visipoint.uk/widgets/react-survey-widget.iife.js:14:8334)
+    at async a (https://visipoint.uk/widgets/react-survey-widget.iife.js:232:49837) @ https://visipoint.uk/widgets/react-survey-widget.iife.js:231

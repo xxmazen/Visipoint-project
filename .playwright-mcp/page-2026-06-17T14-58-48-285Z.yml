@@ -1,0 +1,96 @@
+- generic [ref=e14]:
+  - banner [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - img "brand" [ref=e19]
+        - text: 
+        - generic [ref=e20]: Passport
+      - paragraph [ref=e22] [cursor=pointer]: Sign out
+  - generic [ref=e23]:
+    - generic [ref=e26]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - button "󰇙" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 󰇙
+          - button "user image" [ref=e35]:
+            - img "user image" [ref=e37]
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]:
+                - generic [ref=e41]: Full name
+                - paragraph [ref=e43]: Testing(UK) Testing(UK)
+              - generic [ref=e44]:
+                - generic [ref=e45]: Phone Number
+                - paragraph [ref=e47]: "+20224535463546456"
+            - generic [ref=e49]:
+              - generic [ref=e50]: Email Address
+              - paragraph [ref=e52]: m.mohamed+2468@lamasatech.com
+        - generic [ref=e54]:
+          - paragraph [ref=e55]: My QuickPass
+          - link "Download as PDF" [ref=e57]:
+            - /url: https://s3.eu-west-2.amazonaws.com/vp5-passport/pdf/PASSPORT_QR_f9dd93a8-28c9-4524-bba5-ad1b5d7f25dd_1767522721.pdf
+      - generic [ref=e58]:
+        - button "My entry logs" [ref=e59] [cursor=pointer]
+        - button "Expected visits" [ref=e60] [cursor=pointer]
+        - status [ref=e63]:
+          - generic [ref=e64]: Loading...
+    - contentinfo [ref=e65]:
+      - generic [ref=e68]: 2026 © Visipoint Passport.
+  - region "scrollable content" [ref=e75]:
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - link "󰅖" [ref=e78] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e79]: 󰅖
+        - heading "Settings" [level=5] [ref=e80]
+      - generic [ref=e81]:
+        - heading "Layout" [level=6] [ref=e82]
+        - separator [ref=e83]
+        - radiogroup [ref=e84]:
+          - generic [ref=e85]:
+            - radio "Vertical" [checked] [ref=e86]
+            - generic [ref=e87] [cursor=pointer]: Vertical
+          - generic [ref=e88]:
+            - radio "Horizontal" [ref=e89]
+            - generic [ref=e90] [cursor=pointer]: Horizontal
+        - heading "Width" [level=6] [ref=e91]
+        - separator [ref=e92]
+        - radiogroup [ref=e93]:
+          - generic [ref=e94]:
+            - radio "Fluid" [checked] [ref=e95]
+            - generic [ref=e96] [cursor=pointer]: Fluid
+          - generic [ref=e97]:
+            - radio "Boxed" [ref=e98]
+            - generic [ref=e99] [cursor=pointer]: Boxed
+        - generic [ref=e100]:
+          - heading "Sidebar" [level=6] [ref=e101]
+          - separator [ref=e102]
+          - radiogroup [ref=e103]:
+            - generic [ref=e104]:
+              - radio "Dark" [ref=e105]
+              - generic [ref=e106] [cursor=pointer]: Dark
+            - generic [ref=e107]:
+              - radio "Light" [checked] [ref=e108]
+              - generic [ref=e109] [cursor=pointer]: Light
+            - generic [ref=e110]:
+              - radio "Compact" [ref=e111]
+              - generic [ref=e112] [cursor=pointer]: Compact
+            - generic [ref=e113]:
+              - radio "Icon" [ref=e114]
+              - generic [ref=e115] [cursor=pointer]: Icon
+            - generic [ref=e116]:
+              - radio "Colored" [ref=e117]
+              - generic [ref=e118] [cursor=pointer]: Colored
+        - heading "Preloader" [level=6] [ref=e119]
+        - separator [ref=e120]
+        - generic [ref=e121]:
+          - checkbox "Preloader" [checked] [ref=e122]
+          - generic [ref=e123] [cursor=pointer]: Preloader
+      - heading "Choose Mode" [level=6] [ref=e124]
+      - generic [ref=e125]:
+        - link [ref=e127] [cursor=pointer]:
+          - /url: //skote.vuejs-light.themesbrand.com/
+        - link [ref=e129] [cursor=pointer]:
+          - /url: //skote.vuejs-dark.themesbrand.com/
+        - link [ref=e131] [cursor=pointer]:
+          - /url: //skote.vuejs-rtl.themesbrand.com/

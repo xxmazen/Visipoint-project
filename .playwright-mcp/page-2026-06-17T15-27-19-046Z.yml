@@ -1,0 +1,466 @@
+- generic [ref=e1]:
+  - generic [ref=e15]:
+    - banner [ref=e16]:
+      - generic [ref=e17]:
+        - img [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24] [cursor=pointer]:
+            - img [ref=e25]
+            - generic [ref=e33]: Emergency List
+          - generic [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e38]: Add Visits
+          - button "T Testing(UK)..." [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]:
+              - generic [ref=e45]: T
+              - paragraph [ref=e47]: Testing(UK)...
+              - img [ref=e48]
+          - button "EN" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]:
+              - img [ref=e54]
+              - paragraph [ref=e57]: EN
+    - generic [ref=e58]:
+      - generic [ref=e60]:
+        - generic [ref=e62]: UK (Testing)
+        - button [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - link "Passport Account" [ref=e72] [cursor=pointer]:
+            - /url: /passport
+            - generic [ref=e73]:
+              - paragraph [ref=e74]:
+                - img [ref=e75]
+              - generic [ref=e77]: Passport Account
+        - listitem [ref=e78]:
+          - link "Company Details" [ref=e79] [cursor=pointer]:
+            - /url: /company
+            - generic [ref=e80]:
+              - paragraph [ref=e81]:
+                - img [ref=e82]
+              - generic [ref=e84]: Company Details
+        - listitem [ref=e85]:
+          - link "Dashboard" [ref=e86] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e87]:
+              - paragraph [ref=e88]:
+                - img [ref=e89]
+              - generic [ref=e91]: Dashboard
+        - listitem [ref=e92]:
+          - link "Users" [ref=e93] [cursor=pointer]:
+            - /url: /users
+            - generic [ref=e94]:
+              - paragraph [ref=e95]:
+                - img [ref=e96]
+              - generic [ref=e98]: Users
+        - listitem [ref=e99]:
+          - link "Announcements" [ref=e100] [cursor=pointer]:
+            - /url: /announcements
+            - generic [ref=e101]:
+              - paragraph [ref=e102]:
+                - img [ref=e103]
+              - generic [ref=e105]: Announcements
+        - listitem [ref=e106]:
+          - link "Sites & Devices" [ref=e107] [cursor=pointer]:
+            - /url: /sites
+            - generic [ref=e108]:
+              - paragraph [ref=e109]:
+                - img [ref=e110]
+              - generic [ref=e113]: Sites & Devices
+        - listitem [ref=e114]:
+          - link "Reporting " [ref=e115] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e117]
+            - generic [ref=e119]: Reporting
+            - text: 
+        - listitem [ref=e120]:
+          - link "User Settings " [ref=e121] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e123]
+            - generic [ref=e125]: User Settings
+            - text: 
+        - listitem [ref=e126]:
+          - link "Journey Builder " [ref=e127] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e129]
+            - generic [ref=e131]: Journey Builder
+            - text: 
+        - listitem [ref=e132]:
+          - link "Compliance" [ref=e133] [cursor=pointer]:
+            - /url: /compliances
+            - generic [ref=e134]:
+              - paragraph [ref=e135]:
+                - img [ref=e136]
+              - generic [ref=e139]: Compliance
+        - listitem [ref=e140]:
+          - link "Survey " [ref=e141] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e143]
+            - generic [ref=e145]: Survey
+            - text: 
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "Overall" [ref=e148] [cursor=pointer]:
+                - /url: /survey-overall
+                - paragraph [ref=e149]: Overall
+            - listitem [ref=e150]:
+              - link "Responses" [ref=e151] [cursor=pointer]:
+                - /url: /survey-responses
+                - paragraph [ref=e152]: Responses
+            - listitem [ref=e153]:
+              - link "Survey Builder" [ref=e154] [cursor=pointer]:
+                - /url: /survey-builder
+                - paragraph [ref=e155]: Survey Builder
+            - listitem [ref=e156]:
+              - link "Reports" [ref=e157] [cursor=pointer]:
+                - /url: /survey-reports
+                - paragraph [ref=e158]: Reports
+        - listitem [ref=e159]:
+          - link "Integrations" [ref=e160] [cursor=pointer]:
+            - /url: /integration
+            - generic [ref=e161]:
+              - paragraph [ref=e162]:
+                - img [ref=e163]
+              - generic [ref=e168]: Integrations
+        - listitem [ref=e169]:
+          - link "Emergency Sessions" [ref=e170] [cursor=pointer]:
+            - /url: /emergency-sessions
+            - generic [ref=e171]:
+              - paragraph [ref=e172]:
+                - img [ref=e173]
+              - generic [ref=e181]: Emergency Sessions
+    - generic [ref=e183]:
+      - generic [ref=e188]:
+        - generic [ref=e190]:
+          - generic [ref=e192]:
+            - generic [ref=e194]: 󰨝
+            - generic [ref=e195]:
+              - heading "Survey Overview" [level=1] [ref=e196]
+              - paragraph [ref=e197]: Monitor performance, metrics & trends across all surveys
+          - generic [ref=e198]:
+            - generic [ref=e200]:
+              - button "󰨝 Overview" [ref=e201] [cursor=pointer]:
+                - generic [ref=e202]: 󰨝
+                - text: Overview
+              - button "󰄪 Metrics" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: 󰄪
+                - text: Metrics
+              - button "󰓒 Performance" [ref=e205] [cursor=pointer]:
+                - generic [ref=e206]: 󰓒
+                - text: Performance
+              - button "󰄧 Averages" [ref=e207] [cursor=pointer]:
+                - generic [ref=e208]: 󰄧
+                - text: Averages
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - generic [ref=e212]: 󱙭
+                  - textbox [ref=e213]: 2026-05-19
+                - generic [ref=e214]: —
+                - generic [ref=e215]:
+                  - generic [ref=e216]: 󱙬
+                  - textbox [ref=e217]: 2026-06-17
+              - button "󰑐" [ref=e218] [cursor=pointer]:
+                - generic [ref=e219]: 󰑐
+          - generic [ref=e681]:
+            - generic [ref=e682]:
+              - generic [ref=e683]:
+                - generic [ref=e684]:
+                  - generic [ref=e685]: Y-Axis
+                  - generic [ref=e686]:
+                    - combobox [ref=e687] [cursor=pointer]:
+                      - option "Weekdays" [selected]
+                      - option "Months"
+                      - option "Days of Month"
+                    - generic: 󰅀
+                - generic [ref=e688]:
+                  - generic [ref=e689]: X-Axis
+                  - generic [ref=e690]:
+                    - combobox [ref=e691] [cursor=pointer]:
+                      - option "Hours" [selected]
+                      - option "Weekdays"
+                      - option "Days of Month"
+                      - option "Months"
+                    - generic: 󰅀
+                - button "󰄬 Apply" [ref=e692] [cursor=pointer]:
+                  - generic [ref=e693]: 󰄬
+                  - text: Apply
+              - generic [ref=e694]:
+                - generic [ref=e695]: Legend
+                - generic [ref=e696]: ≥ 90
+                - generic [ref=e697]: ≥ 70
+                - generic [ref=e698]: ≥ 50
+                - generic [ref=e699]: ≥ 30
+                - generic [ref=e700]: ≥ 10
+                - generic [ref=e701]: < 10
+            - generic [ref=e702]:
+              - generic [ref=e703]:
+                - heading "Overall" [level=6] [ref=e704]
+                - generic [ref=e705]:
+                  - button "CSAT" [ref=e706] [cursor=pointer]
+                  - button "NPS" [ref=e707] [cursor=pointer]
+                  - button "Responses" [ref=e708] [cursor=pointer]
+              - table [ref=e710]:
+                - rowgroup [ref=e711]:
+                  - row "00h 01h 02h 03h 04h 05h 06h 07h 08h 09h 10h 11h 12h 13h 14h 15h 16h 17h 18h 19h 20h 21h 22h 23h AVG" [ref=e712]:
+                    - columnheader [ref=e713]
+                    - columnheader "00h" [ref=e714]
+                    - columnheader "01h" [ref=e715]
+                    - columnheader "02h" [ref=e716]
+                    - columnheader "03h" [ref=e717]
+                    - columnheader "04h" [ref=e718]
+                    - columnheader "05h" [ref=e719]
+                    - columnheader "06h" [ref=e720]
+                    - columnheader "07h" [ref=e721]
+                    - columnheader "08h" [ref=e722]
+                    - columnheader "09h" [ref=e723]
+                    - columnheader "10h" [ref=e724]
+                    - columnheader "11h" [ref=e725]
+                    - columnheader "12h" [ref=e726]
+                    - columnheader "13h" [ref=e727]
+                    - columnheader "14h" [ref=e728]
+                    - columnheader "15h" [ref=e729]
+                    - columnheader "16h" [ref=e730]
+                    - columnheader "17h" [ref=e731]
+                    - columnheader "18h" [ref=e732]
+                    - columnheader "19h" [ref=e733]
+                    - columnheader "20h" [ref=e734]
+                    - columnheader "21h" [ref=e735]
+                    - columnheader "22h" [ref=e736]
+                    - columnheader "23h" [ref=e737]
+                    - columnheader "AVG" [ref=e738]
+                - rowgroup [ref=e739]:
+                  - row "Mon — — — — — — — — — — — — — — — — — — — — — — — — —" [ref=e740]:
+                    - cell "Mon" [ref=e741]
+                    - cell "—" [ref=e742]
+                    - cell "—" [ref=e743]
+                    - cell "—" [ref=e744]
+                    - cell "—" [ref=e745]
+                    - cell "—" [ref=e746]
+                    - cell "—" [ref=e747]
+                    - cell "—" [ref=e748]
+                    - cell "—" [ref=e749]
+                    - cell "—" [ref=e750]
+                    - cell "—" [ref=e751]
+                    - cell "—" [ref=e752]
+                    - cell "—" [ref=e753]
+                    - cell "—" [ref=e754]
+                    - cell "—" [ref=e755]
+                    - cell "—" [ref=e756]
+                    - cell "—" [ref=e757]
+                    - cell "—" [ref=e758]
+                    - cell "—" [ref=e759]
+                    - cell "—" [ref=e760]
+                    - cell "—" [ref=e761]
+                    - cell "—" [ref=e762]
+                    - cell "—" [ref=e763]
+                    - cell "—" [ref=e764]
+                    - cell "—" [ref=e765]
+                    - cell "—" [ref=e766]
+                  - row "Tue — — — — — — — — — — — — — — — — — — — — — — — — —" [ref=e767]:
+                    - cell "Tue" [ref=e768]
+                    - cell "—" [ref=e769]
+                    - cell "—" [ref=e770]
+                    - cell "—" [ref=e771]
+                    - cell "—" [ref=e772]
+                    - cell "—" [ref=e773]
+                    - cell "—" [ref=e774]
+                    - cell "—" [ref=e775]
+                    - cell "—" [ref=e776]
+                    - cell "—" [ref=e777]
+                    - cell "—" [ref=e778]
+                    - cell "—" [ref=e779]
+                    - cell "—" [ref=e780]
+                    - cell "—" [ref=e781]
+                    - cell "—" [ref=e782]
+                    - cell "—" [ref=e783]
+                    - cell "—" [ref=e784]
+                    - cell "—" [ref=e785]
+                    - cell "—" [ref=e786]
+                    - cell "—" [ref=e787]
+                    - cell "—" [ref=e788]
+                    - cell "—" [ref=e789]
+                    - cell "—" [ref=e790]
+                    - cell "—" [ref=e791]
+                    - cell "—" [ref=e792]
+                    - cell "—" [ref=e793]
+                  - row "Wed — — — — — — — — — — — — — — — — — — — — — — — — —" [ref=e794]:
+                    - cell "Wed" [ref=e795]
+                    - cell "—" [ref=e796]
+                    - cell "—" [ref=e797]
+                    - cell "—" [ref=e798]
+                    - cell "—" [ref=e799]
+                    - cell "—" [ref=e800]
+                    - cell "—" [ref=e801]
+                    - cell "—" [ref=e802]
+                    - cell "—" [ref=e803]
+                    - cell "—" [ref=e804]
+                    - cell "—" [ref=e805]
+                    - cell "—" [ref=e806]
+                    - cell "—" [ref=e807]
+                    - cell "—" [ref=e808]
+                    - cell "—" [ref=e809]
+                    - cell "—" [ref=e810]
+                    - cell "—" [ref=e811]
+                    - cell "—" [ref=e812]
+                    - cell "—" [ref=e813]
+                    - cell "—" [ref=e814]
+                    - cell "—" [ref=e815]
+                    - cell "—" [ref=e816]
+                    - cell "—" [ref=e817]
+                    - cell "—" [ref=e818]
+                    - cell "—" [ref=e819]
+                    - cell "—" [ref=e820]
+                  - row "Thu — — — — — — — — — — — — — — — — — — — — — — — — —" [ref=e821]:
+                    - cell "Thu" [ref=e822]
+                    - cell "—" [ref=e823]
+                    - cell "—" [ref=e824]
+                    - cell "—" [ref=e825]
+                    - cell "—" [ref=e826]
+                    - cell "—" [ref=e827]
+                    - cell "—" [ref=e828]
+                    - cell "—" [ref=e829]
+                    - cell "—" [ref=e830]
+                    - cell "—" [ref=e831]
+                    - cell "—" [ref=e832]
+                    - cell "—" [ref=e833]
+                    - cell "—" [ref=e834]
+                    - cell "—" [ref=e835]
+                    - cell "—" [ref=e836]
+                    - cell "—" [ref=e837]
+                    - cell "—" [ref=e838]
+                    - cell "—" [ref=e839]
+                    - cell "—" [ref=e840]
+                    - cell "—" [ref=e841]
+                    - cell "—" [ref=e842]
+                    - cell "—" [ref=e843]
+                    - cell "—" [ref=e844]
+                    - cell "—" [ref=e845]
+                    - cell "—" [ref=e846]
+                    - cell "—" [ref=e847]
+                  - row "Fri — — — — — — — — — — — — — — — — — — — — — — — — —" [ref=e848]:
+                    - cell "Fri" [ref=e849]
+                    - cell "—" [ref=e850]
+                    - cell "—" [ref=e851]
+                    - cell "—" [ref=e852]
+                    - cell "—" [ref=e853]
+                    - cell "—" [ref=e854]
+                    - cell "—" [ref=e855]
+                    - cell "—" [ref=e856]
+                    - cell "—" [ref=e857]
+                    - cell "—" [ref=e858]
+                    - cell "—" [ref=e859]
+                    - cell "—" [ref=e860]
+                    - cell "—" [ref=e861]
+                    - cell "—" [ref=e862]
+                    - cell "—" [ref=e863]
+                    - cell "—" [ref=e864]
+                    - cell "—" [ref=e865]
+                    - cell "—" [ref=e866]
+                    - cell "—" [ref=e867]
+                    - cell "—" [ref=e868]
+                    - cell "—" [ref=e869]
+                    - cell "—" [ref=e870]
+                    - cell "—" [ref=e871]
+                    - cell "—" [ref=e872]
+                    - cell "—" [ref=e873]
+                    - cell "—" [ref=e874]
+                  - row "Sat — — — — — — — — — — — — — — — — — — — — — — — — —" [ref=e875]:
+                    - cell "Sat" [ref=e876]
+                    - cell "—" [ref=e877]
+                    - cell "—" [ref=e878]
+                    - cell "—" [ref=e879]
+                    - cell "—" [ref=e880]
+                    - cell "—" [ref=e881]
+                    - cell "—" [ref=e882]
+                    - cell "—" [ref=e883]
+                    - cell "—" [ref=e884]
+                    - cell "—" [ref=e885]
+                    - cell "—" [ref=e886]
+                    - cell "—" [ref=e887]
+                    - cell "—" [ref=e888]
+                    - cell "—" [ref=e889]
+                    - cell "—" [ref=e890]
+                    - cell "—" [ref=e891]
+                    - cell "—" [ref=e892]
+                    - cell "—" [ref=e893]
+                    - cell "—" [ref=e894]
+                    - cell "—" [ref=e895]
+                    - cell "—" [ref=e896]
+                    - cell "—" [ref=e897]
+                    - cell "—" [ref=e898]
+                    - cell "—" [ref=e899]
+                    - cell "—" [ref=e900]
+                    - cell "—" [ref=e901]
+                  - row "Sun — — — — — — — — — — — — — — — — — — — — — — — — —" [ref=e902]:
+                    - cell "Sun" [ref=e903]
+                    - cell "—" [ref=e904]
+                    - cell "—" [ref=e905]
+                    - cell "—" [ref=e906]
+                    - cell "—" [ref=e907]
+                    - cell "—" [ref=e908]
+                    - cell "—" [ref=e909]
+                    - cell "—" [ref=e910]
+                    - cell "—" [ref=e911]
+                    - cell "—" [ref=e912]
+                    - cell "—" [ref=e913]
+                    - cell "—" [ref=e914]
+                    - cell "—" [ref=e915]
+                    - cell "—" [ref=e916]
+                    - cell "—" [ref=e917]
+                    - cell "—" [ref=e918]
+                    - cell "—" [ref=e919]
+                    - cell "—" [ref=e920]
+                    - cell "—" [ref=e921]
+                    - cell "—" [ref=e922]
+                    - cell "—" [ref=e923]
+                    - cell "—" [ref=e924]
+                    - cell "—" [ref=e925]
+                    - cell "—" [ref=e926]
+                    - cell "—" [ref=e927]
+                    - cell "—" [ref=e928]
+                  - row "AVG — — — — — — — — — — — — — — — — — — — — — — — — —" [ref=e929]:
+                    - cell "AVG" [ref=e930]
+                    - cell "—" [ref=e931]
+                    - cell "—" [ref=e932]
+                    - cell "—" [ref=e933]
+                    - cell "—" [ref=e934]
+                    - cell "—" [ref=e935]
+                    - cell "—" [ref=e936]
+                    - cell "—" [ref=e937]
+                    - cell "—" [ref=e938]
+                    - cell "—" [ref=e939]
+                    - cell "—" [ref=e940]
+                    - cell "—" [ref=e941]
+                    - cell "—" [ref=e942]
+                    - cell "—" [ref=e943]
+                    - cell "—" [ref=e944]
+                    - cell "—" [ref=e945]
+                    - cell "—" [ref=e946]
+                    - cell "—" [ref=e947]
+                    - cell "—" [ref=e948]
+                    - cell "—" [ref=e949]
+                    - cell "—" [ref=e950]
+                    - cell "—" [ref=e951]
+                    - cell "—" [ref=e952]
+                    - cell "—" [ref=e953]
+                    - cell "—" [ref=e954]
+                    - cell "—" [ref=e955]
+        - region "Notifications Alt+T"
+      - contentinfo [ref=e251]:
+        - generic [ref=e254]: 2026 © Visipoint.
+  - iframe
+  - iframe [ref=e498]:
+    - img [ref=f103e4] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - iframe [ref=e500]:
+            - img [ref=f112e8] [cursor=pointer]
+          - iframe [ref=e502]:
+            - img [ref=f113e8] [cursor=pointer]
+          - iframe [ref=e504]:
+            - img [ref=f114e8] [cursor=pointer]
+          - iframe [ref=e506]:
+            - img [ref=f115e8] [cursor=pointer]

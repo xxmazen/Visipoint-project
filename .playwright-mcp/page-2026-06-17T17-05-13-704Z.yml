@@ -1,0 +1,229 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e15]:
+    - banner [ref=e16]:
+      - generic [ref=e17]:
+        - img [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24] [cursor=pointer]:
+            - img [ref=e25]
+            - generic [ref=e33]: Emergency List
+          - generic [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e38]: Add Visits
+          - button "T Testing(UK)..." [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]:
+              - generic [ref=e45]: T
+              - paragraph [ref=e47]: Testing(UK)...
+              - img [ref=e48]
+          - button "EN" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]:
+              - img [ref=e54]
+              - paragraph [ref=e57]: EN
+    - generic [ref=e58]:
+      - generic [ref=e60]:
+        - generic [ref=e62]: UK (Testing)
+        - button [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - link "Passport Account" [ref=e72] [cursor=pointer]:
+            - /url: /passport
+            - generic [ref=e73]:
+              - paragraph [ref=e74]:
+                - img [ref=e75]
+              - generic [ref=e77]: Passport Account
+        - listitem [ref=e78]:
+          - link "Company Details" [ref=e79] [cursor=pointer]:
+            - /url: /company
+            - generic [ref=e80]:
+              - paragraph [ref=e81]:
+                - img [ref=e82]
+              - generic [ref=e84]: Company Details
+        - listitem [ref=e85]:
+          - link "Dashboard" [ref=e86] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e87]:
+              - paragraph [ref=e88]:
+                - img [ref=e89]
+              - generic [ref=e91]: Dashboard
+        - listitem [ref=e92]:
+          - link "Users" [ref=e93] [cursor=pointer]:
+            - /url: /users
+            - generic [ref=e94]:
+              - paragraph [ref=e95]:
+                - img [ref=e96]
+              - generic [ref=e98]: Users
+        - listitem [ref=e99]:
+          - link "Announcements" [ref=e100] [cursor=pointer]:
+            - /url: /announcements
+            - generic [ref=e101]:
+              - paragraph [ref=e102]:
+                - img [ref=e103]
+              - generic [ref=e105]: Announcements
+        - listitem [ref=e106]:
+          - link "Sites & Devices" [ref=e107] [cursor=pointer]:
+            - /url: /sites
+            - generic [ref=e108]:
+              - paragraph [ref=e109]:
+                - img [ref=e110]
+              - generic [ref=e113]: Sites & Devices
+        - listitem [ref=e114]:
+          - link "Reporting " [ref=e115] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e117]
+            - generic [ref=e119]: Reporting
+            - text: 
+        - listitem [ref=e120]:
+          - link "User Settings " [ref=e121] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e123]
+            - generic [ref=e125]: User Settings
+            - text: 
+        - listitem [ref=e126]:
+          - link "Journey Builder " [ref=e127] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e129]
+            - generic [ref=e131]: Journey Builder
+            - text: 
+          - list [ref=e132]:
+            - listitem [ref=e133]:
+              - link "Visit Management" [ref=e134] [cursor=pointer]:
+                - /url: /journeys
+                - paragraph [ref=e135]: Visit Management
+            - listitem [ref=e136]:
+              - link "Survey Management" [ref=e137] [cursor=pointer]:
+                - /url: /survey-journeys
+                - paragraph [ref=e138]: Survey Management
+        - listitem [ref=e139]:
+          - link "Compliance" [ref=e140] [cursor=pointer]:
+            - /url: /compliances
+            - generic [ref=e141]:
+              - paragraph [ref=e142]:
+                - img [ref=e143]
+              - generic [ref=e146]: Compliance
+        - listitem [ref=e147]:
+          - link "Survey " [ref=e148] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e150]
+            - generic [ref=e152]: Survey
+            - text: 
+        - listitem [ref=e153]:
+          - link "Integrations" [ref=e154] [cursor=pointer]:
+            - /url: /integration
+            - generic [ref=e155]:
+              - paragraph [ref=e156]:
+                - img [ref=e157]
+              - generic [ref=e162]: Integrations
+        - listitem [ref=e163]:
+          - link "Emergency Sessions" [ref=e164] [cursor=pointer]:
+            - /url: /emergency-sessions
+            - generic [ref=e165]:
+              - paragraph [ref=e166]:
+                - img [ref=e167]
+              - generic [ref=e175]: Emergency Sessions
+    - generic [ref=e177]:
+      - generic [ref=e298]:
+        - heading "Journey Builder" [level=4] [ref=e301]
+        - generic [ref=e302]:
+          - main [ref=e303]:
+            - generic [ref=e304]:
+              - paragraph [ref=e305]: Update Journey
+              - generic [ref=e306]:
+                - generic [ref=e308]:
+                  - button "Add Logo (Optional) 󰄀" [ref=e309]:
+                    - text: Browse
+                    - generic [ref=e310]:
+                      - paragraph [ref=e311]: Add Logo (Optional)
+                      - generic [ref=e313]: 󰄀
+                  - generic [ref=e314]: "Note: Image needs to be at least 200px width, 45px height and 2MB max size."
+                - textbox "Journey Name" [ref=e318]: Survey
+                - textbox "Journey Description (Optional)" [ref=e320]: "null"
+                - generic [ref=e321]:
+                  - paragraph [ref=e322]: Journey Builder Type
+                  - generic [ref=e323]:
+                    - generic [ref=e324] [cursor=pointer]:
+                      - generic [ref=e325]: 
+                      - generic [ref=e326]: Visit Management
+                    - generic [ref=e327] [cursor=pointer]:
+                      - generic [ref=e328]: 
+                      - generic [ref=e329]: Survey Only
+                - generic [ref=e330]:
+                  - paragraph [ref=e331]: Survey Name
+                  - generic [ref=e332]:
+                    - generic [ref=e333]:
+                      - generic [ref=e334]: "1"
+                      - combobox [ref=e335]:
+                        - option "Select a survey..." [disabled]
+                        - option "Test342"
+                        - option "Maryoum"
+                        - option "Lamasatech survey" [selected]
+                    - generic [ref=e336]:
+                      - generic [ref=e337]:
+                        - button " Always Active" [ref=e338] [cursor=pointer]:
+                          - generic [ref=e339]: 
+                          - text: Always Active
+                        - button " Date Range" [ref=e340] [cursor=pointer]:
+                          - generic [ref=e341]: 
+                          - text: Date Range
+                        - button " Recurring" [ref=e342] [cursor=pointer]:
+                          - generic [ref=e343]: 
+                          - text: Recurring
+                      - generic [ref=e344]:
+                        - generic [ref=e345]: Repeat On
+                        - generic [ref=e346]:
+                          - button "Mo" [ref=e347] [cursor=pointer]
+                          - button "Tu" [ref=e348] [cursor=pointer]
+                          - button "We" [ref=e349] [cursor=pointer]
+                          - button "Th" [ref=e350] [cursor=pointer]
+                          - button "Fr" [ref=e351] [cursor=pointer]
+                          - button "Sa" [ref=e352] [cursor=pointer]
+                          - button "Su" [ref=e353] [cursor=pointer]
+                        - generic [ref=e354]:
+                          - generic [ref=e355]:
+                            - generic [ref=e356]: Start Time
+                            - textbox [ref=e357]
+                          - generic [ref=e358]:
+                            - generic [ref=e359]: End Time
+                            - textbox [ref=e360]
+                  - button " Add another survey" [ref=e361] [cursor=pointer]:
+                    - generic [ref=e362]: 
+                    - text: Add another survey
+                - generic [ref=e363]:
+                  - heading "Access permission" [level=4] [ref=e364]
+                  - paragraph [ref=e365]: Only admins of selected sites will be able to access this journey.
+                  - generic [ref=e366]:
+                    - img [ref=e367]
+                    - generic [ref=e369]: Site
+                    - generic [ref=e371]:
+                      - generic [ref=e373]:
+                        - generic [ref=e375]:
+                          - generic [ref=e377]: UK (Testing)
+                          - generic:
+                            - img
+                        - textbox [ref=e379]
+                      - img [ref=e381]
+                  - paragraph [ref=e383]: "Note: Removing sites is not allowed if you are not allowed to access them or if this journey is assigned to one of their areas."
+          - generic [ref=e385]:
+            - button "Update" [ref=e386] [cursor=pointer]:
+              - generic [ref=e387]: Update
+            - link "Cancel" [ref=e388] [cursor=pointer]:
+              - /url: /survey-journeys
+              - button "Cancel" [ref=e389]:
+                - generic [ref=e390]: Cancel
+      - contentinfo [ref=e212]:
+        - generic [ref=e215]: 2026 © Visipoint.
+  - iframe
+  - iframe [ref=e275]:
+    - img [ref=f39e4] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - iframe [ref=e277]:
+            - img [ref=f48e8] [cursor=pointer]
+          - iframe [ref=e279]:
+            - img [ref=f49e8] [cursor=pointer]
+          - iframe [ref=e281]:
+            - img [ref=f50e8] [cursor=pointer]
+          - iframe [ref=e283]:
+            - img [ref=f51e8] [cursor=pointer]

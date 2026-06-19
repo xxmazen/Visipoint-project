@@ -1,0 +1,17 @@
+[     703ms] [WARNING] quill Overwriting modules/magicUrl with function t(e,n){var r=this;!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.quill=e,n=n||{},this.options=d(d({},f),n),this.urlNormalizer=function(t){return r.normalize(t)},this.mailNormalizer=function(t){return"mailto:".concat(t)},this.registerTypeListener(),this.registerPasteListener(),this.registerBlurListener()} @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:311
+[     778ms] [WARNING] Tracking code is missing. Clarity will not be initialized. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[     794ms] [LOG] Socket connected:  false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[     936ms] [ERROR] Error: <path> attribute d: Expected number, "… 2.27861 12.4233C2.16267 12.3648…". @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:78
+[    1037ms] [LOG] WebSocket connected. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    1634ms] [LOG] setHeaders {url: /survey-journeys} {status: success, message: get admin Preference successfully, data: Array(1)} @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    1718ms] [LOG] setHeaders {url: /survey-journeys} {status: success, message: get admin Preference successfully, data: Array(1)} @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    1883ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/widget.css?10.6.7 ... @ :732
+[    1884ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/theme1.css?10.6.7 ... @ :735
+[    1888ms] [LOG] loading script https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true @ :783
+[    1889ms] [LOG] Requesting  https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true  as csp @ :804
+[    3183ms] [DIR] undefined @ /imports/modules/tool.guides/widget/client/redux/helpers/init.default.action.helper.js:0
+[   26071ms] [LOG] image  @ https://visipoint.uk/js/chunk-af6d6258.c29b82cd.js:0
+[   26349ms] [LOG] qruserypes {status: success, message: User Types listed successfully., data: Array(0)} [] @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[   26836ms] [LOG] fetch {id: 8525ec99-5027-4084-9019-2f3a773af635, name: Survey, description: null, entity_id: 3ee6790d-196d-4470-b79e-bf1dc26681bb, logo: null} @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[   39236ms] [LOG] setHeaders {url: /survey-journeys} {status: success, message: get admin Preference successfully, data: Array(1)} @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[   39382ms] [LOG] setHeaders {url: /survey-journeys} {status: success, message: get admin Preference successfully, data: Array(1)} @ https://visipoint.uk/js/app.2bc90c3d.js:0

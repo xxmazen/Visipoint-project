@@ -1,0 +1,21 @@
+- generic [ref=e8]:
+  - generic [ref=e10]:
+    - paragraph [ref=e11]: Passport Account
+    - paragraph [ref=e12]: Login
+  - generic [ref=e14]:
+    - generic [ref=e16]:
+      - textbox "Add Email Address or Phone Number" [ref=e17]
+      - generic: Add Email Address or Phone Number
+    - generic [ref=e19]:
+      - textbox "Password" [ref=e20]
+      - generic: Password
+    - link "Forgot password?" [ref=e22] [cursor=pointer]:
+      - /url: /forget-password
+    - generic [ref=e23]:
+      - button "LOGIN" [disabled]
+    - generic [ref=e24]:
+      - paragraph [ref=e25]: or use the button below to login without a password
+      - button "One Time Login" [disabled] [ref=e27]
+    - generic [ref=e28]:
+      - paragraph [ref=e29]: Don’t have an account?
+      - link "Signup" [ref=e30] [cursor=pointer]

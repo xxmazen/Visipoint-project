@@ -1,0 +1,292 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e15]:
+    - banner [ref=e16]:
+      - generic [ref=e17]:
+        - img [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24] [cursor=pointer]:
+            - img [ref=e25]
+            - generic [ref=e33]: Emergency List
+          - generic [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e38]: Add Visits
+          - button "T Testing(UK)..." [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]:
+              - generic [ref=e45]: T
+              - paragraph [ref=e47]: Testing(UK)...
+              - img [ref=e48]
+          - button "EN" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]:
+              - img [ref=e54]
+              - paragraph [ref=e57]: EN
+    - generic [ref=e58]:
+      - generic [ref=e60]:
+        - generic [ref=e62]: UK (Testing)
+        - button [ref=e63] [cursor=pointer]:
+          - img [ref=e64]
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - link "Passport Account" [ref=e72] [cursor=pointer]:
+            - /url: /passport
+            - generic [ref=e73]:
+              - paragraph [ref=e74]:
+                - img [ref=e75]
+              - generic [ref=e77]: Passport Account
+        - listitem [ref=e78]:
+          - link "Company Details" [ref=e79] [cursor=pointer]:
+            - /url: /company
+            - generic [ref=e80]:
+              - paragraph [ref=e81]:
+                - img [ref=e82]
+              - generic [ref=e84]: Company Details
+        - listitem [ref=e85]:
+          - link "Dashboard" [ref=e86] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e87]:
+              - paragraph [ref=e88]:
+                - img [ref=e89]
+              - generic [ref=e91]: Dashboard
+        - listitem [ref=e92]:
+          - link "Users" [ref=e93] [cursor=pointer]:
+            - /url: /users
+            - generic [ref=e94]:
+              - paragraph [ref=e95]:
+                - img [ref=e96]
+              - generic [ref=e98]: Users
+        - listitem [ref=e99]:
+          - link "Announcements" [ref=e100] [cursor=pointer]:
+            - /url: /announcements
+            - generic [ref=e101]:
+              - paragraph [ref=e102]:
+                - img [ref=e103]
+              - generic [ref=e105]: Announcements
+        - listitem [ref=e106]:
+          - link "Sites & Devices" [ref=e107] [cursor=pointer]:
+            - /url: /sites
+            - generic [ref=e108]:
+              - paragraph [ref=e109]:
+                - img [ref=e110]
+              - generic [ref=e113]: Sites & Devices
+        - listitem [ref=e114]:
+          - link "Reporting " [ref=e115] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e117]
+            - generic [ref=e119]: Reporting
+            - text: 
+        - listitem [ref=e120]:
+          - link "User Settings " [ref=e121] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e123]
+            - generic [ref=e125]: User Settings
+            - text: 
+        - listitem [ref=e126]:
+          - link "Journey Builder " [ref=e127] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e129]
+            - generic [ref=e131]: Journey Builder
+            - text: 
+        - listitem [ref=e132]:
+          - link "Compliance" [ref=e133] [cursor=pointer]:
+            - /url: /compliances
+            - generic [ref=e134]:
+              - paragraph [ref=e135]:
+                - img [ref=e136]
+              - generic [ref=e139]: Compliance
+        - listitem [ref=e140]:
+          - link "Survey " [ref=e141] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e143]
+            - generic [ref=e145]: Survey
+            - text: 
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "Overall" [ref=e148] [cursor=pointer]:
+                - /url: /survey-overall
+                - paragraph [ref=e149]: Overall
+            - listitem [ref=e150]:
+              - link "Responses" [ref=e151] [cursor=pointer]:
+                - /url: /survey-responses
+                - paragraph [ref=e152]: Responses
+            - listitem [ref=e153]:
+              - link "Survey Builder" [ref=e154] [cursor=pointer]:
+                - /url: /survey-builder
+                - paragraph [ref=e155]: Survey Builder
+            - listitem [ref=e156]:
+              - link "Reports" [ref=e157] [cursor=pointer]:
+                - /url: /survey-reports
+                - paragraph [ref=e158]: Reports
+        - listitem [ref=e159]:
+          - link "Integrations" [ref=e160] [cursor=pointer]:
+            - /url: /integration
+            - generic [ref=e161]:
+              - paragraph [ref=e162]:
+                - img [ref=e163]
+              - generic [ref=e168]: Integrations
+        - listitem [ref=e169]:
+          - link "Emergency Sessions" [ref=e170] [cursor=pointer]:
+            - /url: /emergency-sessions
+            - generic [ref=e171]:
+              - paragraph [ref=e172]:
+                - img [ref=e173]
+              - generic [ref=e181]: Emergency Sessions
+    - generic [ref=e183]:
+      - generic [ref=e254]:
+        - generic [ref=e256]:
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - button "󰁍 Back to Reports" [ref=e260] [cursor=pointer]:
+                - generic [ref=e261]: 󰁍
+                - generic [ref=e262]: Back to Reports
+              - generic [ref=e263]:
+                - generic [ref=e265]: 󱀩
+                - generic [ref=e266]:
+                  - heading "Create Report" [level=4] [ref=e267]
+                  - paragraph [ref=e268]: Configure data sources, time range, output sections, and delivery.
+              - generic [ref=e269]:
+                - generic [ref=e270]:
+                  - generic [ref=e272]: 󰲶
+                  - heading "Report Name" [level=6] [ref=e273]
+                - textbox "e.g. Q1 Customer Satisfaction Report" [ref=e275]
+              - generic [ref=e276]:
+                - generic [ref=e277] [cursor=pointer]:
+                  - generic [ref=e279]: 󱘲
+                  - heading "Source" [level=6] [ref=e280]
+                  - generic [ref=e281]: 1 survey
+                  - generic [ref=e282]: 󰅃
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Choose Survey(s)
+                  - generic [ref=e285]:
+                    - generic [ref=e286]:
+                      - link "Select All" [ref=e287] [cursor=pointer]:
+                        - /url: "#"
+                      - link "Clear" [ref=e288] [cursor=pointer]:
+                        - /url: "#"
+                    - generic [ref=e289]:
+                      - generic [ref=e290] [cursor=pointer]:
+                        - generic [ref=e292]: 󰄬
+                        - generic [ref=e293]: 360-Degree Performance Review
+                        - generic [ref=e294]: draft
+                      - generic [ref=e295] [cursor=pointer]:
+                        - generic [ref=e297]: 󰄬
+                        - generic [ref=e298]: Test342
+                        - generic [ref=e299]: draft
+                      - generic [ref=e300] [cursor=pointer]:
+                        - generic [ref=e302]: 󰄬
+                        - generic [ref=e303]: From
+                        - generic [ref=e304]: draft
+                      - generic [ref=e305] [cursor=pointer]:
+                        - generic [ref=e307]: 󰄬
+                        - generic [ref=e308]: Maryoum
+                        - generic [ref=e309]: active
+                      - generic [ref=e310] [cursor=pointer]:
+                        - generic [ref=e312]: 󰄬
+                        - generic [ref=e313]: Another survey
+                        - generic [ref=e314]: active
+                      - generic [ref=e315] [cursor=pointer]:
+                        - generic [ref=e317]: 󰄬
+                        - generic [ref=e318]: Lamasatech survey
+                        - generic [ref=e319]: active
+                  - generic [ref=e320]: Response Source
+                  - generic [ref=e321]:
+                    - generic [ref=e322] [cursor=pointer]: All Sources
+                    - generic [ref=e323] [cursor=pointer]: web
+                    - generic [ref=e324] [cursor=pointer]: device
+                  - generic [ref=e325]: Response Filters
+                  - generic [ref=e326]:
+                    - generic [ref=e327]:
+                      - generic [ref=e328]:
+                        - button "AND" [ref=e329] [cursor=pointer]
+                        - button "OR" [ref=e330] [cursor=pointer]
+                      - button "󰐕 Add Condition" [ref=e331] [cursor=pointer]:
+                        - generic [ref=e332]: 󰐕
+                        - text: Add Condition
+                    - generic [ref=e334]: No conditions. Click "Add Condition" to filter responses.
+              - generic [ref=e335]:
+                - generic [ref=e336] [cursor=pointer]:
+                  - generic [ref=e338]: 󰙹
+                  - heading "Time Period" [level=6] [ref=e339]
+                  - generic [ref=e340]: Today
+                  - generic [ref=e341]: 󰅃
+                - generic [ref=e342]:
+                  - generic [ref=e343]: Select Period
+                  - generic [ref=e344]:
+                    - button "Today" [ref=e345] [cursor=pointer]
+                    - button "Yesterday" [ref=e346] [cursor=pointer]
+                    - button "Last 7 Days" [ref=e347] [cursor=pointer]
+                    - button "Past Week" [ref=e348] [cursor=pointer]
+                    - button "Last 30 Days" [ref=e349] [cursor=pointer]
+                    - button "Past Month" [ref=e350] [cursor=pointer]
+                    - button "Last 365 Days" [ref=e351] [cursor=pointer]
+                    - button "Past Year" [ref=e352] [cursor=pointer]
+                    - button "Custom Range" [ref=e353] [cursor=pointer]
+                  - generic [ref=e354]:
+                    - generic [ref=e356]: Compare to Previous
+                    - generic [ref=e360]:
+                      - generic [ref=e361]: Breakdown By
+                      - combobox [ref=e362] [cursor=pointer]:
+                        - option "Hours" [selected]
+                        - option "Days"
+                        - option "Weeks"
+                        - option "Months"
+              - generic [ref=e363]:
+                - generic [ref=e364] [cursor=pointer]:
+                  - generic [ref=e366]: 󰝖
+                  - heading "Output Sections" [level=6] [ref=e367]
+                  - generic [ref=e368]: 󰅃
+                - generic [ref=e370]:
+                  - generic [ref=e371]: 󰋽
+                  - text: Select a survey above to view questions.
+              - generic [ref=e373] [cursor=pointer]:
+                - generic [ref=e375]: 󱡰
+                - heading "Delivery" [level=6] [ref=e376]
+                - generic [ref=e377]: 󰅀
+              - button "󱓟 Generate Report" [ref=e378] [cursor=pointer]:
+                - generic [ref=e419]: 󱓟
+                - text: Generate Report
+            - generic [ref=e381]:
+              - generic [ref=e382]:
+                - generic [ref=e383]: 󱀩
+                - generic [ref=e384]: Report Preview
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e387]: Title
+                  - generic [ref=e388]: —
+                - generic [ref=e389]:
+                  - generic [ref=e390]: Surveys
+                  - generic [ref=e391]: 1 selected
+                - generic [ref=e392]:
+                  - generic [ref=e393]: Period
+                  - generic [ref=e394]: Today
+                - generic [ref=e395]:
+                  - generic [ref=e396]: Source
+                  - generic [ref=e397]: All
+                - generic [ref=e398]:
+                  - generic [ref=e399]: Questions
+                  - generic [ref=e400]: "0"
+              - img [ref=e402]
+          - generic [ref=e421]:
+            - generic [ref=e423]: 󰗠
+            - heading "Report Ready!" [level=6] [ref=e424]
+            - paragraph [ref=e425]: Your report has been generated successfully.
+            - button "󰛐 View Report" [ref=e426] [cursor=pointer]:
+              - generic [ref=e427]: 󰛐
+              - text: View Report
+            - button "Stay Here" [ref=e428] [cursor=pointer]
+        - region "Notifications Alt+T"
+      - contentinfo [ref=e231]:
+        - generic [ref=e234]: 2026 © Visipoint.
+  - iframe
+  - iframe [ref=e251]:
+    - img [ref=f137e4] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - iframe [ref=e412]:
+            - img [ref=f146e8] [cursor=pointer]
+          - iframe [ref=e414]:
+            - img [ref=f147e8] [cursor=pointer]
+          - iframe [ref=e416]:
+            - img [ref=f148e8] [cursor=pointer]
+          - iframe [ref=e418]:
+            - img [ref=f149e8] [cursor=pointer]

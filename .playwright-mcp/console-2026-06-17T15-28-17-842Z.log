@@ -1,0 +1,29 @@
+[     751ms] [WARNING] quill Overwriting modules/magicUrl with function t(e,n){var r=this;!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.quill=e,n=n||{},this.options=d(d({},f),n),this.urlNormalizer=function(t){return r.normalize(t)},this.mailNormalizer=function(t){return"mailto:".concat(t)},this.registerTypeListener(),this.registerPasteListener(),this.registerBlurListener()} @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:311
+[     808ms] [WARNING] Tracking code is missing. Clarity will not be initialized. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[     818ms] [LOG] Socket connected:  false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[     861ms] [ERROR] Error: <path> attribute d: Expected number, "… 2.27861 12.4233C2.16267 12.3648…". @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:78
+[     865ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[     865ms] [LOG] initial_screen report-list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[     960ms] [LOG] initial_screen report-list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[     994ms] [LOG] WebSocket connected. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    5775ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/widget.css?10.6.7 ... @ :732
+[    5776ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/theme1.css?10.6.7 ... @ :735
+[    5779ms] [LOG] loading script https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true @ :783
+[    5779ms] [LOG] Requesting  https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true  as csp @ :804
+[    7054ms] [DIR] undefined @ /imports/modules/tool.guides/widget/client/redux/helpers/init.default.action.helper.js:0
+[   13028ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   13028ms] [LOG] initial_screen create-report @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   13150ms] [LOG] initial_screen create-report @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   84559ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   84560ms] [LOG] initial_screen report-view @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   84560ms] [LOG] initial_screen report-view @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   84673ms] [LOG] initial_screen report-view @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  121818ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  121818ms] [LOG] initial_screen report-list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  121911ms] [LOG] initial_screen report-list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  144791ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  144791ms] [LOG] initial_screen create-comparison @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  144917ms] [LOG] initial_screen create-comparison @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  163375ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  163375ms] [LOG] initial_screen report-list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  163461ms] [LOG] initial_screen report-list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352

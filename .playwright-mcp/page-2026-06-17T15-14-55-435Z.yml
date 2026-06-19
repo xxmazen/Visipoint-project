@@ -1,0 +1,298 @@
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - generic [ref=e8]:
+        - img [ref=e13]
+        - generic [ref=e14]:
+          - generic [ref=e15] [cursor=pointer]:
+            - img [ref=e16]
+            - generic [ref=e24]: Emergency List
+          - generic [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+            - generic [ref=e29]: Add Visits
+          - button "T Testing(UK)..." [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - generic [ref=e36]: T
+              - paragraph [ref=e38]: Testing(UK)...
+              - img [ref=e39]
+          - button "EN" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - img [ref=e45]
+              - paragraph [ref=e48]: EN
+    - generic [ref=e49]:
+      - generic [ref=e51]:
+        - generic [ref=e53]: UK (Testing)
+        - button [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - link "Passport Account" [ref=e63] [cursor=pointer]:
+            - /url: /passport
+            - generic [ref=e64]:
+              - paragraph [ref=e65]:
+                - img [ref=e66]
+              - generic [ref=e68]: Passport Account
+        - listitem [ref=e69]:
+          - link "Company Details" [ref=e70] [cursor=pointer]:
+            - /url: /company
+            - generic [ref=e71]:
+              - paragraph [ref=e72]:
+                - img [ref=e73]
+              - generic [ref=e75]: Company Details
+        - listitem [ref=e76]:
+          - link "Dashboard" [ref=e77] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e78]:
+              - paragraph [ref=e79]:
+                - img [ref=e80]
+              - generic [ref=e82]: Dashboard
+        - listitem [ref=e83]:
+          - link "Users" [ref=e84] [cursor=pointer]:
+            - /url: /users
+            - generic [ref=e85]:
+              - paragraph [ref=e86]:
+                - img [ref=e87]
+              - generic [ref=e89]: Users
+        - listitem [ref=e90]:
+          - link "Announcements" [ref=e91] [cursor=pointer]:
+            - /url: /announcements
+            - generic [ref=e92]:
+              - paragraph [ref=e93]:
+                - img [ref=e94]
+              - generic [ref=e96]: Announcements
+        - listitem [ref=e97]:
+          - link "Sites & Devices" [ref=e98] [cursor=pointer]:
+            - /url: /sites
+            - generic [ref=e99]:
+              - paragraph [ref=e100]:
+                - img [ref=e101]
+              - generic [ref=e104]: Sites & Devices
+        - listitem [ref=e105]:
+          - link "Reporting " [ref=e106] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e108]
+            - generic [ref=e110]: Reporting
+            - text: 
+        - listitem [ref=e111]:
+          - link "User Settings " [ref=e112] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e114]
+            - generic [ref=e116]: User Settings
+            - text: 
+        - listitem [ref=e117]:
+          - link "Journey Builder " [ref=e118] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e120]
+            - generic [ref=e122]: Journey Builder
+            - text: 
+        - listitem [ref=e123]:
+          - link "Compliance" [ref=e124] [cursor=pointer]:
+            - /url: /compliances
+            - generic [ref=e125]:
+              - paragraph [ref=e126]:
+                - img [ref=e127]
+              - generic [ref=e130]: Compliance
+        - listitem [ref=e131]:
+          - link "Survey " [ref=e132] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e134]
+            - generic [ref=e136]: Survey
+            - text: 
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - link "Overall" [ref=e139] [cursor=pointer]:
+                - /url: /survey-overall
+                - paragraph [ref=e140]: Overall
+            - listitem [ref=e141]:
+              - link "Responses" [ref=e142] [cursor=pointer]:
+                - /url: /survey-responses
+                - paragraph [ref=e143]: Responses
+            - listitem [ref=e144]:
+              - link "Survey Builder" [ref=e145] [cursor=pointer]:
+                - /url: /survey-builder
+                - paragraph [ref=e146]: Survey Builder
+            - listitem [ref=e147]:
+              - link "Reports" [ref=e148] [cursor=pointer]:
+                - /url: /survey-reports
+                - paragraph [ref=e149]: Reports
+        - listitem [ref=e150]:
+          - link "Integrations" [ref=e151] [cursor=pointer]:
+            - /url: /integration
+            - generic [ref=e152]:
+              - paragraph [ref=e153]:
+                - img [ref=e154]
+              - generic [ref=e159]: Integrations
+        - listitem [ref=e160]:
+          - link "Emergency Sessions" [ref=e161] [cursor=pointer]:
+            - /url: /emergency-sessions
+            - generic [ref=e162]:
+              - paragraph [ref=e163]:
+                - img [ref=e164]
+              - generic [ref=e172]: Emergency Sessions
+    - generic [ref=e174]:
+      - generic [ref=e179]:
+        - generic [ref=e500]:
+          - generic [ref=e501]: Surveys/360-Degree Performance Review
+          - generic [ref=e503]:
+            - img "No questions" [ref=e504]
+            - paragraph [ref=e505]: No questions yet
+            - button "Add questions" [ref=e506] [cursor=pointer]
+          - generic [ref=e508]:
+            - button "Close" [ref=e509] [cursor=pointer]:
+              - img "Close" [ref=e510]
+            - heading "Add question" [level=2] [ref=e511]
+            - generic [ref=e512]:
+              - paragraph [ref=e513]: Smiley Faces
+              - generic [ref=e514]:
+                - generic [ref=e515] [cursor=pointer]:
+                  - img [ref=e517]
+                  - img [ref=e521]
+                  - img [ref=e525]
+                  - img [ref=e529]
+                  - img [ref=e533]
+                - generic [ref=e536] [cursor=pointer]:
+                  - img [ref=e538]
+                  - img [ref=e542]
+                  - img [ref=e546]
+                  - img [ref=e550]
+                - generic [ref=e553] [cursor=pointer]:
+                  - img [ref=e555]
+                  - img [ref=e559]
+                  - img [ref=e563]
+            - generic [ref=e566]:
+              - paragraph [ref=e567]: Likert scales
+              - generic [ref=e568]:
+                - generic [ref=e569] [cursor=pointer]:
+                  - generic [ref=e570]: "1"
+                  - generic [ref=e571]: "2"
+                  - generic [ref=e572]: "3"
+                  - generic [ref=e573]: "4"
+                  - generic [ref=e574]: "5"
+                - generic [ref=e576] [cursor=pointer]:
+                  - generic [ref=e577]:
+                    - generic [ref=e578]: "0"
+                    - generic [ref=e579]: "1"
+                    - generic [ref=e580]: "2"
+                    - generic [ref=e581]: "3"
+                    - generic [ref=e582]: "4"
+                    - generic [ref=e583]: "5"
+                  - generic [ref=e584]:
+                    - generic [ref=e585]: "6"
+                    - generic [ref=e586]: "7"
+                    - generic [ref=e587]: "8"
+                    - generic [ref=e588]: "9"
+                    - generic [ref=e589]: "10"
+            - generic [ref=e590]:
+              - paragraph [ref=e591]: Yes or no
+              - generic [ref=e592]:
+                - generic [ref=e593] [cursor=pointer]:
+                  - img [ref=e595]
+                  - img [ref=e599]
+                - generic [ref=e602] [cursor=pointer]:
+                  - img [ref=e604]
+                  - img [ref=e607]
+            - generic [ref=e609]:
+              - paragraph [ref=e610]: Ratings
+              - generic [ref=e613] [cursor=pointer]:
+                - img [ref=e615]
+                - img [ref=e618]
+                - img [ref=e621]
+                - img [ref=e624]
+                - img [ref=e627]
+            - generic [ref=e629]:
+              - paragraph [ref=e630]: Multiple Choice
+              - generic [ref=e631]:
+                - generic [ref=e632]:
+                  - generic [ref=e633]: CUSTOM ICONS + LABELS
+                  - generic [ref=e635] [cursor=pointer]:
+                    - generic [ref=e636]:
+                      - img [ref=e639]
+                      - generic [ref=e642]: LABEL
+                    - generic [ref=e643]:
+                      - img [ref=e646]
+                      - generic [ref=e649]: LABEL
+                    - generic [ref=e650]:
+                      - generic [ref=e651]:
+                        - img [ref=e653]
+                        - img [ref=e658]
+                      - generic [ref=e661]: LABEL
+                    - generic [ref=e662]:
+                      - img [ref=e665]
+                      - generic [ref=e668]: LABEL
+                    - generic [ref=e669]:
+                      - generic [ref=e670]:
+                        - img [ref=e672]
+                        - img [ref=e677]
+                      - generic [ref=e680]: LABEL
+                - generic [ref=e681]:
+                  - generic [ref=e682]: CUSTOM ICONS
+                  - generic [ref=e684] [cursor=pointer]:
+                    - img [ref=e687]
+                    - img [ref=e692]
+                    - generic [ref=e695]:
+                      - img [ref=e697]
+                      - img [ref=e702]
+                    - img [ref=e707]
+                    - generic [ref=e710]:
+                      - img [ref=e712]
+                      - img [ref=e717]
+                - generic [ref=e720]:
+                  - generic [ref=e721]: CUSTOM LABELS
+                  - generic [ref=e723] [cursor=pointer]:
+                    - generic [ref=e724]:
+                      - generic [ref=e725]: LABEL
+                      - generic [ref=e726]: LABEL
+                      - generic [ref=e727]:
+                        - text: LABEL
+                        - img [ref=e730]
+                    - generic [ref=e733]:
+                      - generic [ref=e734]:
+                        - text: LABEL
+                        - img [ref=e737]
+                      - generic [ref=e740]: LABEL
+            - separator [ref=e741]
+            - generic [ref=e742]:
+              - paragraph [ref=e743]: Forms
+              - generic [ref=e744]:
+                - generic [ref=e745]:
+                  - generic [ref=e746]: OPEN TEXT
+                  - generic [ref=e749] [cursor=pointer]: TEXT INPUT
+                - generic [ref=e750]:
+                  - generic [ref=e751]: NAMES & AGE
+                  - generic [ref=e754] [cursor=pointer]: Lorem Ipsum
+                - generic [ref=e755]:
+                  - generic [ref=e756]: PHONE NUMBER
+                  - generic [ref=e759] [cursor=pointer]: 0123 456 789
+                - generic [ref=e760]:
+                  - generic [ref=e761]: EMAIL
+                  - generic [ref=e764] [cursor=pointer]: abc@xyz.com
+              - generic [ref=e766]:
+                - generic [ref=e767]: COMMENT (OPEN-ENDED)
+                - generic [ref=e770] [cursor=pointer]: The quick brown fox jumps over the lazy dog
+            - separator [ref=e771]
+            - generic [ref=e772]:
+              - paragraph [ref=e773]: Introduction page
+              - generic "Add an introduction page" [ref=e775] [cursor=pointer]:
+                - img "Introduction screen" [ref=e776]
+            - separator [ref=e777]
+            - generic [ref=e778]:
+              - button "Add" [disabled] [ref=e779]
+              - button "Cancel" [ref=e780] [cursor=pointer]
+        - region "Notifications Alt+T"
+      - contentinfo [ref=e199]:
+        - generic [ref=e202]: 2026 © Visipoint.
+  - iframe
+  - iframe [ref=e491]:
+    - img [ref=f52e4] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - iframe [ref=e493]:
+            - img [ref=f61e8] [cursor=pointer]
+          - iframe [ref=e495]:
+            - img [ref=f62e8] [cursor=pointer]
+          - iframe [ref=e497]:
+            - img [ref=f63e8] [cursor=pointer]
+          - iframe [ref=e499]:
+            - img [ref=f64e8] [cursor=pointer]

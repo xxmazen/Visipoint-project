@@ -1,0 +1,274 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - generic [ref=e8]:
+        - img [ref=e13]
+        - generic [ref=e14]:
+          - generic [ref=e15] [cursor=pointer]:
+            - img [ref=e16]
+            - generic [ref=e24]: Emergency List
+          - generic [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+            - generic [ref=e29]: Add Visits
+          - button "T Testing(UK)..." [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - generic [ref=e36]: T
+              - paragraph [ref=e38]: Testing(UK)...
+              - img [ref=e39]
+          - button "EN" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - img [ref=e45]
+              - paragraph [ref=e48]: EN
+    - generic [ref=e49]:
+      - generic [ref=e51]:
+        - generic [ref=e53]: UK (Testing)
+        - button [ref=e54] [cursor=pointer]:
+          - img [ref=e55]
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - link "Passport Account" [ref=e63] [cursor=pointer]:
+            - /url: /passport
+            - generic [ref=e64]:
+              - paragraph [ref=e65]:
+                - img [ref=e66]
+              - generic [ref=e68]: Passport Account
+        - listitem [ref=e69]:
+          - link "Company Details" [ref=e70] [cursor=pointer]:
+            - /url: /company
+            - generic [ref=e71]:
+              - paragraph [ref=e72]:
+                - img [ref=e73]
+              - generic [ref=e75]: Company Details
+        - listitem [ref=e76]:
+          - link "Dashboard" [ref=e77] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e78]:
+              - paragraph [ref=e79]:
+                - img [ref=e80]
+              - generic [ref=e82]: Dashboard
+        - listitem [ref=e83]:
+          - link "Users" [ref=e84] [cursor=pointer]:
+            - /url: /users
+            - generic [ref=e85]:
+              - paragraph [ref=e86]:
+                - img [ref=e87]
+              - generic [ref=e89]: Users
+        - listitem [ref=e90]:
+          - link "Announcements" [ref=e91] [cursor=pointer]:
+            - /url: /announcements
+            - generic [ref=e92]:
+              - paragraph [ref=e93]:
+                - img [ref=e94]
+              - generic [ref=e96]: Announcements
+        - listitem [ref=e97]:
+          - link "Sites & Devices" [ref=e98] [cursor=pointer]:
+            - /url: /sites
+            - generic [ref=e99]:
+              - paragraph [ref=e100]:
+                - img [ref=e101]
+              - generic [ref=e104]: Sites & Devices
+        - listitem [ref=e105]:
+          - link "Reporting " [ref=e106] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e108]
+            - generic [ref=e110]: Reporting
+            - text: 
+        - listitem [ref=e111]:
+          - link "User Settings " [ref=e112] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e114]
+            - generic [ref=e116]: User Settings
+            - text: 
+        - listitem [ref=e117]:
+          - link "Journey Builder " [ref=e118] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e120]
+            - generic [ref=e122]: Journey Builder
+            - text: 
+        - listitem [ref=e123]:
+          - link "Compliance" [ref=e124] [cursor=pointer]:
+            - /url: /compliances
+            - generic [ref=e125]:
+              - paragraph [ref=e126]:
+                - img [ref=e127]
+              - generic [ref=e130]: Compliance
+        - listitem [ref=e131]:
+          - link "Survey " [ref=e132] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e134]
+            - generic [ref=e136]: Survey
+            - text: 
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - link "Overall" [ref=e139] [cursor=pointer]:
+                - /url: /survey-overall
+                - paragraph [ref=e140]: Overall
+            - listitem [ref=e141]:
+              - link "Responses" [ref=e142] [cursor=pointer]:
+                - /url: /survey-responses
+                - paragraph [ref=e143]: Responses
+            - listitem [ref=e144]:
+              - link "Survey Builder" [ref=e145] [cursor=pointer]:
+                - /url: /survey-builder
+                - paragraph [ref=e146]: Survey Builder
+            - listitem [ref=e147]:
+              - link "Reports" [ref=e148] [cursor=pointer]:
+                - /url: /survey-reports
+                - paragraph [ref=e149]: Reports
+        - listitem [ref=e150]:
+          - link "Integrations" [ref=e151] [cursor=pointer]:
+            - /url: /integration
+            - generic [ref=e152]:
+              - paragraph [ref=e153]:
+                - img [ref=e154]
+              - generic [ref=e159]: Integrations
+        - listitem [ref=e160]:
+          - link "Emergency Sessions" [ref=e161] [cursor=pointer]:
+            - /url: /emergency-sessions
+            - generic [ref=e162]:
+              - paragraph [ref=e163]:
+                - img [ref=e164]
+              - generic [ref=e172]: Emergency Sessions
+    - generic [ref=e174]:
+      - generic [ref=e179]:
+        - generic [ref=e1072]:
+          - generic [ref=e1074]:
+            - paragraph [ref=e1075]: Surveys
+            - button "Create Survey" [ref=e1077] [cursor=pointer]
+          - generic [ref=e1078]:
+            - button "YOUR SURVEYS" [ref=e1079] [cursor=pointer]:
+              - img [ref=e1080]
+              - text: YOUR SURVEYS
+            - button "TEMPLATES" [ref=e1082] [cursor=pointer]:
+              - img [ref=e1083]
+              - text: TEMPLATES
+          - generic [ref=e1088]:
+            - generic [ref=e1089]:
+              - generic [ref=e1090]: TOTAL RESPONSES
+              - generic [ref=e1091]: "1"
+              - generic [ref=e1092]:
+                - img [ref=e1093]
+                - generic [ref=e1096]: "-100% from last month"
+            - generic [ref=e1097]:
+              - generic [ref=e1098]: NUMBER OF SURVEYS
+              - generic [ref=e1099]: "6"
+              - generic [ref=e1100]:
+                - img [ref=e1101]
+                - generic [ref=e1102]: Steady since last week
+          - group [ref=e1104]:
+            - toolbar "Data grid toolbar" [ref=e1106]:
+              - generic [ref=e1107]:
+                - button "Columns " [ref=e1110] [cursor=pointer]:
+                  - generic [ref=e1111]:
+                    - generic [ref=e1112]: Columns
+                    - generic [ref=e1114]: 
+                - group [ref=e1118]:
+                  - button "Export" [ref=e1120] [cursor=pointer]:
+                    - generic [ref=e1121]:
+                      - generic [ref=e1122]: Export
+                      - generic [ref=e1123]: 
+            - row "Column Survey Name Column Status Column Responses Column Completion rate Column Created At Column Last Edit Column Actions" [ref=e1132]:
+              - columnheader "Column Survey Name" [ref=e1133] [cursor=pointer]: Survey Name
+              - columnheader "Column Status" [ref=e1134] [cursor=pointer]:
+                - button "Show filter options for column 'Status'" [ref=e1135]: 
+                - text: Status
+              - columnheader "Column Responses" [ref=e1136] [cursor=pointer]: Responses
+              - columnheader "Column Completion rate" [ref=e1137] [cursor=pointer]: Completion rate
+              - columnheader "Column Created At" [ref=e1138] [cursor=pointer]: Created At
+              - columnheader "Column Last Edit" [ref=e1139] [cursor=pointer]: Last Edit
+              - columnheader "Column Actions" [ref=e1140]: Actions
+            - row "Filter cell Filter cell Filter cell Filter cell Filter cell" [ref=e1141]:
+              - gridcell "Filter cell" [ref=e1142]:
+                - generic [ref=e1143]:
+                  - menubar:
+                    - generic:
+                      - menuitem "Search box":
+                        - generic:
+                          - generic: 
+                          - text: 
+                  - generic [ref=e1147]:
+                    - textbox "Filter cell" [ref=e1148]:
+                      - /placeholder: Search
+                    - generic: Search
+              - gridcell [ref=e1149]
+              - gridcell "Filter cell" [ref=e1150]:
+                - generic [ref=e1151]:
+                  - menubar:
+                    - generic:
+                      - menuitem "Search box":
+                        - generic:
+                          - generic: 
+                          - text: 
+                  - generic [ref=e1155]:
+                    - spinbutton "Filter cell" [ref=e1156]
+                    - generic: Search
+              - gridcell "Filter cell" [ref=e1157]:
+                - generic [ref=e1158]:
+                  - menubar:
+                    - generic:
+                      - menuitem "Search box":
+                        - generic:
+                          - generic: 
+                          - text: 
+                  - generic [ref=e1162]:
+                    - spinbutton "Filter cell" [ref=e1163]
+                    - generic: Search
+              - gridcell "Filter cell" [ref=e1164]:
+                - generic [ref=e1165]:
+                  - menubar:
+                    - generic:
+                      - menuitem "Search box":
+                        - generic:
+                          - generic: 
+                          - text: 
+                  - generic [ref=e1169]:
+                    - textbox "Filter cell" [ref=e1170]:
+                      - /placeholder: Search
+                    - generic: Search
+              - gridcell "Filter cell" [ref=e1171]:
+                - generic [ref=e1172]:
+                  - menubar:
+                    - generic:
+                      - menuitem "Search box":
+                        - generic:
+                          - generic: 
+                          - text: 
+                  - generic [ref=e1176]:
+                    - textbox "Filter cell" [ref=e1177]:
+                      - /placeholder: Search
+                    - generic: Search
+              - gridcell [ref=e1178]
+            - navigation "Page Navigation" [ref=e1182]:
+              - generic [ref=e1183]:
+                - 'button "Items per page: 5" [ref=e1184]': "5"
+                - 'button "Items per page: 10" [ref=e1185] [cursor=pointer]': "10"
+                - 'button "Items per page: 20" [ref=e1186] [cursor=pointer]': "20"
+              - generic [ref=e1187]:
+                - generic [ref=e1188]: Page 1 of 2 (6 items)
+                - generic [ref=e1189]:
+                  - button "Page 1" [ref=e1190]: "1"
+                  - button "Page 2" [ref=e1191] [cursor=pointer]: "2"
+        - region "Notifications Alt+T":
+          - alert [ref=e1193] [cursor=pointer]:
+            - img [ref=e1195]
+            - text: Survey published successfully!
+            - button "close" [ref=e1197]:
+              - img [ref=e1198]
+            - progressbar "notification timer" [ref=e1202]
+      - contentinfo [ref=e199]:
+        - generic [ref=e202]: 2026 © Visipoint.
+  - iframe
+  - iframe [ref=e493]:
+    - img [ref=f5e4] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - iframe [ref=e495]:
+            - img [ref=f14e8] [cursor=pointer]
+          - iframe [ref=e497]:
+            - img [ref=f15e8] [cursor=pointer]
+          - iframe [ref=e499]:
+            - img [ref=f16e8] [cursor=pointer]
+          - iframe [ref=e501]:
+            - img [ref=f17e8] [cursor=pointer]

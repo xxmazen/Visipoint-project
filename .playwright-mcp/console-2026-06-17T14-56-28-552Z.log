@@ -1,0 +1,3 @@
+[     267ms] [ERROR] Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID @ https://cdn.tooltip.io/static/player.js:0
+[   27419ms] [ERROR] Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID @ https://cdn.tooltip.io/static/player.js:0
+[   41732ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.visipoint.me/login:0

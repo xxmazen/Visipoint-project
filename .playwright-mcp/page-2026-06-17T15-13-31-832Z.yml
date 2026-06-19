@@ -1,0 +1,562 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - banner [ref=e7]:
+      - generic [ref=e8]:
+        - img [ref=e234]
+        - generic [ref=e14]:
+          - generic [ref=e15] [cursor=pointer]:
+            - img [ref=e16]
+            - generic [ref=e24]: Emergency List
+          - generic [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+            - generic [ref=e29]: Add Visits
+          - button "T Testing(UK)..." [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - generic [ref=e36]: T
+              - paragraph [ref=e38]: Testing(UK)...
+              - img [ref=e39]
+          - button "EN" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - img [ref=e45]
+              - paragraph [ref=e48]: EN
+    - generic [ref=e49]:
+      - generic [ref=e51]:
+        - generic [ref=e236]: UK (Testing)
+        - button [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+      - list [ref=e58]:
+        - listitem [ref=e59]:
+          - link "Passport Account" [ref=e238] [cursor=pointer]:
+            - /url: /passport
+            - generic [ref=e61]:
+              - paragraph [ref=e62]:
+                - img [ref=e63]
+              - generic [ref=e239]: Passport Account
+        - listitem [ref=e65]:
+          - link "Company Details" [ref=e240] [cursor=pointer]:
+            - /url: /company
+            - generic [ref=e67]:
+              - paragraph [ref=e68]:
+                - img [ref=e69]
+              - generic [ref=e241]: Company Details
+        - listitem [ref=e71]:
+          - link "Dashboard" [ref=e242] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e73]:
+              - paragraph [ref=e74]:
+                - img [ref=e75]
+              - generic [ref=e243]: Dashboard
+        - listitem [ref=e77]:
+          - link "Users" [ref=e244] [cursor=pointer]:
+            - /url: /users
+            - generic [ref=e79]:
+              - paragraph [ref=e80]:
+                - img [ref=e81]
+              - generic [ref=e245]: Users
+        - listitem [ref=e83]:
+          - link "Announcements" [ref=e246] [cursor=pointer]:
+            - /url: /announcements
+            - generic [ref=e85]:
+              - paragraph [ref=e86]:
+                - img [ref=e87]
+              - generic [ref=e247]: Announcements
+        - listitem [ref=e89]:
+          - link "Sites & Devices" [ref=e248] [cursor=pointer]:
+            - /url: /sites
+            - generic [ref=e91]:
+              - paragraph [ref=e92]:
+                - img [ref=e93]
+              - generic [ref=e249]: Sites & Devices
+        - listitem [ref=e96]:
+          - link "Reporting " [ref=e250] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e99]
+            - generic [ref=e251]: Reporting
+            - text: 
+        - listitem [ref=e101]:
+          - link "User Settings " [ref=e252] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e104]
+            - generic [ref=e253]: User Settings
+            - text: 
+        - listitem [ref=e106]:
+          - link "Journey Builder " [ref=e254] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e109]
+            - generic [ref=e255]: Journey Builder
+            - text: 
+        - listitem [ref=e111]:
+          - link "Compliance" [ref=e263] [cursor=pointer]:
+            - /url: /compliances
+            - generic [ref=e113]:
+              - paragraph [ref=e114]:
+                - img [ref=e115]
+              - generic [ref=e264]: Compliance
+        - listitem [ref=e118]:
+          - link "Survey " [expanded] [ref=e265] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - img [ref=e121]
+            - generic [ref=e266]: Survey
+            - text: 
+          - list [ref=e276]:
+            - listitem [ref=e277]:
+              - link "Overall" [ref=e278] [cursor=pointer]:
+                - /url: /survey-overall
+                - paragraph [ref=e279]: Overall
+            - listitem [ref=e280]:
+              - link "Responses" [ref=e281] [cursor=pointer]:
+                - /url: /survey-responses
+                - paragraph [ref=e282]: Responses
+            - listitem [ref=e283]:
+              - link "Survey Builder" [ref=e284] [cursor=pointer]:
+                - /url: /survey-builder
+                - paragraph [ref=e285]: Survey Builder
+            - listitem [ref=e286]:
+              - link "Reports" [ref=e287] [cursor=pointer]:
+                - /url: /survey-reports
+                - paragraph [ref=e288]: Reports
+        - listitem [ref=e123]:
+          - link "Integrations" [ref=e267] [cursor=pointer]:
+            - /url: /integration
+            - generic [ref=e125]:
+              - paragraph [ref=e126]:
+                - img [ref=e127]
+              - generic [ref=e268]: Integrations
+        - listitem [ref=e132]:
+          - link "Emergency Sessions" [ref=e269] [cursor=pointer]:
+            - /url: /emergency-sessions
+            - generic [ref=e134]:
+              - paragraph [ref=e135]:
+                - img [ref=e136]
+              - generic [ref=e270]: Emergency Sessions
+    - generic [ref=e144]:
+      - generic [ref=e291]:
+        - generic [ref=e983]:
+          - generic [ref=e984]: Surveys/360-Degree Performance Review
+          - generic [ref=e985]:
+            - button "Questions" [ref=e986] [cursor=pointer]
+            - button "Style" [ref=e987] [cursor=pointer]
+          - generic [ref=e989]:
+            - generic [ref=e990]:
+              - generic [ref=e992]:
+                - generic [ref=e993]:
+                  - generic [ref=e994]: Question 1
+                  - button "Preview" [ref=e995] [cursor=pointer]
+                  - generic [ref=e996]:
+                    - button "Duplicate" [ref=e997] [cursor=pointer]:
+                      - img "Duplicate" [ref=e998]
+                    - button "Delete" [ref=e999] [cursor=pointer]:
+                      - img "Delete" [ref=e1000]
+                - generic [ref=e1001]:
+                  - generic [ref=e1002]:
+                    - textbox [ref=e1003]: The employee consistently meets or exceeds performance targets.
+                    - generic: Question Name
+                    - generic: "*"
+                  - generic [ref=e1004]:
+                    - generic [ref=e1005] [cursor=pointer]:
+                      - radio "Icons and Labels" [checked] [ref=e1006]
+                      - text: Icons and Labels
+                    - generic [ref=e1007] [cursor=pointer]:
+                      - radio "Icons only" [ref=e1008]
+                      - text: Icons only
+                    - generic [ref=e1009] [cursor=pointer]:
+                      - radio "Labels only" [ref=e1010]
+                      - text: Labels only
+                  - generic [ref=e1011]:
+                    - generic [ref=e1012]:
+                      - generic [ref=e1013]:
+                        - generic [ref=e1015]: "1"
+                        - textbox "Lorem ipsum" [ref=e1017]: Very Unlikely
+                      - button "Edit" [ref=e1018] [cursor=pointer]:
+                        - img "Edit" [ref=e1019]
+                    - generic [ref=e1020]:
+                      - generic [ref=e1021]:
+                        - generic [ref=e1023]: "2"
+                        - textbox "Lorem ipsum" [ref=e1025]: Unlikely
+                      - button "Edit" [ref=e1026] [cursor=pointer]:
+                        - img "Edit" [ref=e1027]
+                    - generic [ref=e1028]:
+                      - generic [ref=e1029]:
+                        - generic [ref=e1031]: "3"
+                        - textbox "Lorem ipsum" [ref=e1033]: Neutral
+                      - button "Edit" [ref=e1034] [cursor=pointer]:
+                        - img "Edit" [ref=e1035]
+                    - generic [ref=e1036]:
+                      - generic [ref=e1037]:
+                        - generic [ref=e1039]: "4"
+                        - textbox "Lorem ipsum" [ref=e1041]: Likely
+                      - button "Edit" [ref=e1042] [cursor=pointer]:
+                        - img "Edit" [ref=e1043]
+                    - generic [ref=e1044]:
+                      - generic [ref=e1045]:
+                        - generic [ref=e1047]: "5"
+                        - textbox "Lorem ipsum" [ref=e1049]: Very Likely
+                      - button "Edit" [ref=e1050] [cursor=pointer]:
+                        - img "Edit" [ref=e1051]
+                  - generic [ref=e1052]:
+                    - generic [ref=e1053]: Can be skipped
+                    - generic [ref=e1054] [cursor=pointer]:
+                      - checkbox
+                  - generic [ref=e1056]:
+                    - paragraph [ref=e1057]: "Question condition:"
+                    - generic [ref=e1058]:
+                      - generic: If the answer is
+                      - generic [ref=e1061] [cursor=pointer]:
+                        - combobox [ref=e1062]
+                        - button "Open" [ref=e1064]:
+                          - img [ref=e1065]
+                    - generic [ref=e1067]:
+                      - generic: Jump to
+                      - generic [ref=e1070] [cursor=pointer]:
+                        - combobox [ref=e1071]
+                        - button "Open" [ref=e1073]:
+                          - img [ref=e1074]
+              - generic [ref=e1077]:
+                - generic [ref=e1078]:
+                  - generic [ref=e1079]: Question 2
+                  - button "Preview" [ref=e1080] [cursor=pointer]
+                  - generic [ref=e1081]:
+                    - button "Duplicate" [ref=e1082] [cursor=pointer]:
+                      - img "Duplicate" [ref=e1083]
+                    - button "Delete" [ref=e1084] [cursor=pointer]:
+                      - img "Delete" [ref=e1085]
+                - generic [ref=e1086]:
+                  - generic [ref=e1087]:
+                    - textbox [ref=e1088]: The employee communicates clearly and effectively with the team.
+                    - generic: Question Name
+                    - generic: "*"
+                  - generic [ref=e1089]:
+                    - generic [ref=e1090] [cursor=pointer]:
+                      - radio "Icons and Labels" [checked] [ref=e1091]
+                      - text: Icons and Labels
+                    - generic [ref=e1092] [cursor=pointer]:
+                      - radio "Icons only" [ref=e1093]
+                      - text: Icons only
+                    - generic [ref=e1094] [cursor=pointer]:
+                      - radio "Labels only" [ref=e1095]
+                      - text: Labels only
+                  - generic [ref=e1096]:
+                    - generic [ref=e1097]:
+                      - generic [ref=e1098]:
+                        - generic [ref=e1100]: "1"
+                        - textbox "Lorem ipsum" [ref=e1102]: Very Unlikely
+                      - button "Edit" [ref=e1103] [cursor=pointer]:
+                        - img "Edit" [ref=e1104]
+                    - generic [ref=e1105]:
+                      - generic [ref=e1106]:
+                        - generic [ref=e1108]: "2"
+                        - textbox "Lorem ipsum" [ref=e1110]: Unlikely
+                      - button "Edit" [ref=e1111] [cursor=pointer]:
+                        - img "Edit" [ref=e1112]
+                    - generic [ref=e1113]:
+                      - generic [ref=e1114]:
+                        - generic [ref=e1116]: "3"
+                        - textbox "Lorem ipsum" [ref=e1118]: Neutral
+                      - button "Edit" [ref=e1119] [cursor=pointer]:
+                        - img "Edit" [ref=e1120]
+                    - generic [ref=e1121]:
+                      - generic [ref=e1122]:
+                        - generic [ref=e1124]: "4"
+                        - textbox "Lorem ipsum" [ref=e1126]: Likely
+                      - button "Edit" [ref=e1127] [cursor=pointer]:
+                        - img "Edit" [ref=e1128]
+                    - generic [ref=e1129]:
+                      - generic [ref=e1130]:
+                        - generic [ref=e1132]: "5"
+                        - textbox "Lorem ipsum" [ref=e1134]: Very Likely
+                      - button "Edit" [ref=e1135] [cursor=pointer]:
+                        - img "Edit" [ref=e1136]
+                  - generic [ref=e1137]:
+                    - generic [ref=e1138]: Can be skipped
+                    - generic [ref=e1139] [cursor=pointer]:
+                      - checkbox [checked]
+                  - generic [ref=e1141]:
+                    - paragraph [ref=e1142]: "Question condition:"
+                    - generic [ref=e1143]:
+                      - generic: If the answer is
+                      - generic [ref=e1146] [cursor=pointer]:
+                        - combobox [ref=e1147]
+                        - button "Open" [ref=e1149]:
+                          - img [ref=e1150]
+                    - generic [ref=e1152]:
+                      - generic: Jump to
+                      - generic [ref=e1155] [cursor=pointer]:
+                        - combobox [ref=e1156]
+                        - button "Open" [ref=e1158]:
+                          - img [ref=e1159]
+              - generic [ref=e1162]:
+                - generic [ref=e1163]:
+                  - generic [ref=e1164]: Question 3
+                  - button "Preview" [ref=e1165] [cursor=pointer]
+                  - generic [ref=e1166]:
+                    - button "Duplicate" [ref=e1167] [cursor=pointer]:
+                      - img "Duplicate" [ref=e1168]
+                    - button "Delete" [ref=e1169] [cursor=pointer]:
+                      - img "Delete" [ref=e1170]
+                - generic [ref=e1171]:
+                  - generic [ref=e1172]:
+                    - textbox [ref=e1173]: The employee demonstrates initiative and takes ownership of tasks.
+                    - generic: Question Name
+                    - generic: "*"
+                  - generic [ref=e1174]:
+                    - generic [ref=e1175] [cursor=pointer]:
+                      - radio "Icons and Labels" [checked] [ref=e1176]
+                      - text: Icons and Labels
+                    - generic [ref=e1177] [cursor=pointer]:
+                      - radio "Icons only" [ref=e1178]
+                      - text: Icons only
+                    - generic [ref=e1179] [cursor=pointer]:
+                      - radio "Labels only" [ref=e1180]
+                      - text: Labels only
+                  - generic [ref=e1181]:
+                    - generic [ref=e1182]:
+                      - generic [ref=e1183]:
+                        - generic [ref=e1185]: "1"
+                        - textbox "Lorem ipsum" [ref=e1187]: Very Unlikely
+                      - button "Edit" [ref=e1188] [cursor=pointer]:
+                        - img "Edit" [ref=e1189]
+                    - generic [ref=e1190]:
+                      - generic [ref=e1191]:
+                        - generic [ref=e1193]: "2"
+                        - textbox "Lorem ipsum" [ref=e1195]: Unlikely
+                      - button "Edit" [ref=e1196] [cursor=pointer]:
+                        - img "Edit" [ref=e1197]
+                    - generic [ref=e1198]:
+                      - generic [ref=e1199]:
+                        - generic [ref=e1201]: "3"
+                        - textbox "Lorem ipsum" [ref=e1203]: Neutral
+                      - button "Edit" [ref=e1204] [cursor=pointer]:
+                        - img "Edit" [ref=e1205]
+                    - generic [ref=e1206]:
+                      - generic [ref=e1207]:
+                        - generic [ref=e1209]: "4"
+                        - textbox "Lorem ipsum" [ref=e1211]: Likely
+                      - button "Edit" [ref=e1212] [cursor=pointer]:
+                        - img "Edit" [ref=e1213]
+                    - generic [ref=e1214]:
+                      - generic [ref=e1215]:
+                        - generic [ref=e1217]: "5"
+                        - textbox "Lorem ipsum" [ref=e1219]: Very Likely
+                      - button "Edit" [ref=e1220] [cursor=pointer]:
+                        - img "Edit" [ref=e1221]
+                  - generic [ref=e1222]:
+                    - generic [ref=e1223]: Can be skipped
+                    - generic [ref=e1224] [cursor=pointer]:
+                      - checkbox [checked]
+                  - generic [ref=e1226]:
+                    - paragraph [ref=e1227]: "Question condition:"
+                    - generic [ref=e1228]:
+                      - generic: If the answer is
+                      - generic [ref=e1231] [cursor=pointer]:
+                        - combobox [ref=e1232]
+                        - button "Open" [ref=e1234]:
+                          - img [ref=e1235]
+                    - generic [ref=e1237]:
+                      - generic: Jump to
+                      - generic [ref=e1240] [cursor=pointer]:
+                        - combobox [ref=e1241]
+                        - button "Open" [ref=e1243]:
+                          - img [ref=e1244]
+              - generic [ref=e1247]:
+                - generic [ref=e1248]:
+                  - generic [ref=e1249]: Question 4
+                  - button "Preview" [ref=e1250] [cursor=pointer]
+                  - generic [ref=e1251]:
+                    - button "Duplicate" [ref=e1252] [cursor=pointer]:
+                      - img "Duplicate" [ref=e1253]
+                    - button "Delete" [ref=e1254] [cursor=pointer]:
+                      - img "Delete" [ref=e1255]
+                - generic [ref=e1256]:
+                  - generic [ref=e1257]:
+                    - textbox [ref=e1258]: The employee collaborates well with colleagues.
+                    - generic: Question Name
+                    - generic: "*"
+                  - generic [ref=e1259]:
+                    - generic [ref=e1260] [cursor=pointer]:
+                      - radio "Icons and Labels" [checked] [ref=e1261]
+                      - text: Icons and Labels
+                    - generic [ref=e1262] [cursor=pointer]:
+                      - radio "Icons only" [ref=e1263]
+                      - text: Icons only
+                    - generic [ref=e1264] [cursor=pointer]:
+                      - radio "Labels only" [ref=e1265]
+                      - text: Labels only
+                  - generic [ref=e1266]:
+                    - generic [ref=e1267]:
+                      - generic [ref=e1268]:
+                        - generic [ref=e1270]: "1"
+                        - textbox "Lorem ipsum" [ref=e1272]: Very Unlikely
+                      - button "Edit" [ref=e1273] [cursor=pointer]:
+                        - img "Edit" [ref=e1274]
+                    - generic [ref=e1275]:
+                      - generic [ref=e1276]:
+                        - generic [ref=e1278]: "2"
+                        - textbox "Lorem ipsum" [ref=e1280]: Unlikely
+                      - button "Edit" [ref=e1281] [cursor=pointer]:
+                        - img "Edit" [ref=e1282]
+                    - generic [ref=e1283]:
+                      - generic [ref=e1284]:
+                        - generic [ref=e1286]: "3"
+                        - textbox "Lorem ipsum" [ref=e1288]: Neutral
+                      - button "Edit" [ref=e1289] [cursor=pointer]:
+                        - img "Edit" [ref=e1290]
+                    - generic [ref=e1291]:
+                      - generic [ref=e1292]:
+                        - generic [ref=e1294]: "4"
+                        - textbox "Lorem ipsum" [ref=e1296]: Likely
+                      - button "Edit" [ref=e1297] [cursor=pointer]:
+                        - img "Edit" [ref=e1298]
+                    - generic [ref=e1299]:
+                      - generic [ref=e1300]:
+                        - generic [ref=e1302]: "5"
+                        - textbox "Lorem ipsum" [ref=e1304]: Very Likely
+                      - button "Edit" [ref=e1305] [cursor=pointer]:
+                        - img "Edit" [ref=e1306]
+                  - generic [ref=e1307]:
+                    - generic [ref=e1308]: Can be skipped
+                    - generic [ref=e1309] [cursor=pointer]:
+                      - checkbox [checked]
+                  - generic [ref=e1311]:
+                    - paragraph [ref=e1312]: "Question condition:"
+                    - generic [ref=e1313]:
+                      - generic: If the answer is
+                      - generic [ref=e1316] [cursor=pointer]:
+                        - combobox [ref=e1317]
+                        - button "Open" [ref=e1319]:
+                          - img [ref=e1320]
+                    - generic [ref=e1322]:
+                      - generic: Jump to
+                      - generic [ref=e1325] [cursor=pointer]:
+                        - combobox [ref=e1326]
+                        - button "Open" [ref=e1328]:
+                          - img [ref=e1329]
+              - generic [ref=e1332]:
+                - generic [ref=e1333]:
+                  - generic [ref=e1334]: Question 5
+                  - button "Preview" [ref=e1335] [cursor=pointer]
+                  - generic [ref=e1336]:
+                    - button "Duplicate" [ref=e1337] [cursor=pointer]:
+                      - img "Duplicate" [ref=e1338]
+                    - button "Delete" [ref=e1339] [cursor=pointer]:
+                      - img "Delete" [ref=e1340]
+                - generic [ref=e1341]:
+                  - generic [ref=e1342]:
+                    - textbox [ref=e1343]: What are this person's greatest strengths?
+                    - generic: Question Name
+                    - generic: "*"
+                  - generic [ref=e1344]:
+                    - generic [ref=e1347]: Fields
+                    - generic [ref=e1349]:
+                      - img [ref=e1351]
+                      - generic [ref=e1354] [cursor=pointer]:
+                        - generic [ref=e1355]:
+                          - text: Tap here to type
+                          - generic: "*"
+                        - generic [ref=e1356]: Respondent's answer appears here...
+                      - generic [ref=e1357]:
+                        - button "Edit" [ref=e1358] [cursor=pointer]:
+                          - img "Edit" [ref=e1359]
+                        - button "Delete" [ref=e1360] [cursor=pointer]:
+                          - img "Delete" [ref=e1361]
+                    - generic [ref=e1362]:
+                      - generic [ref=e1364]: Single-field type — delete to replace
+                      - button "+ Add Field" [disabled] [ref=e1365]:
+                        - generic [ref=e1366]: +
+                        - text: Add Field
+                  - generic [ref=e1368]:
+                    - textbox [ref=e1369]
+                    - generic: Next button label
+                    - generic: "*"
+              - generic [ref=e1371]:
+                - generic [ref=e1372]:
+                  - generic [ref=e1373]: Question 6
+                  - button "Preview" [ref=e1374] [cursor=pointer]
+                  - generic [ref=e1375]:
+                    - button "Duplicate" [ref=e1376] [cursor=pointer]:
+                      - img "Duplicate" [ref=e1377]
+                    - button "Delete" [ref=e1378] [cursor=pointer]:
+                      - img "Delete" [ref=e1379]
+                - generic [ref=e1380]:
+                  - generic [ref=e1381]:
+                    - textbox [ref=e1382]: What areas would you suggest they focus on for development?
+                    - generic: Question Name
+                    - generic: "*"
+                  - generic [ref=e1383]:
+                    - generic [ref=e1386]: Fields
+                    - generic [ref=e1388]:
+                      - img [ref=e1390]
+                      - generic [ref=e1393] [cursor=pointer]:
+                        - generic [ref=e1394]:
+                          - text: Tap here to type
+                          - generic: "*"
+                        - generic [ref=e1395]: Respondent's answer appears here...
+                      - generic [ref=e1396]:
+                        - button "Edit" [ref=e1397] [cursor=pointer]:
+                          - img "Edit" [ref=e1398]
+                        - button "Delete" [ref=e1399] [cursor=pointer]:
+                          - img "Delete" [ref=e1400]
+                    - generic [ref=e1401]:
+                      - generic [ref=e1403]: Single-field type — delete to replace
+                      - button "+ Add Field" [disabled] [ref=e1404]:
+                        - generic [ref=e1405]: +
+                        - text: Add Field
+                  - generic [ref=e1407]:
+                    - textbox [ref=e1408]
+                    - generic: Next button label
+                    - generic: "*"
+              - generic [ref=e1409]:
+                - generic [ref=e1410]:
+                  - generic [ref=e1411]: Thank you
+                  - button "Preview" [ref=e1412] [cursor=pointer]
+                - generic [ref=e1414]:
+                  - textbox [ref=e1415]: Thank you!
+                  - generic: Text
+              - generic [ref=e1416]:
+                - button "Save and publish" [ref=e1417] [cursor=pointer]
+                - button "Save as a draft" [ref=e1418] [cursor=pointer]
+            - generic [ref=e1419]:
+              - paragraph [ref=e1420]: Questions
+              - generic [ref=e1422] [cursor=pointer]:
+                - generic [ref=e1423]: "1"
+                - generic [ref=e1424]: The employee consistently meets or exceeds performance targets.
+              - generic [ref=e1426] [cursor=pointer]:
+                - generic [ref=e1427]: "2"
+                - generic [ref=e1428]: The employee communicates clearly and effectively with the team.
+              - generic [ref=e1430] [cursor=pointer]:
+                - generic [ref=e1431]: "3"
+                - generic [ref=e1432]: The employee demonstrates initiative and takes ownership of tasks.
+              - generic [ref=e1434] [cursor=pointer]:
+                - generic [ref=e1435]: "4"
+                - generic [ref=e1436]: The employee collaborates well with colleagues.
+              - generic [ref=e1438] [cursor=pointer]:
+                - generic [ref=e1439]: "5"
+                - generic [ref=e1440]: What are this person's greatest strengths?
+              - generic [ref=e1442] [cursor=pointer]:
+                - generic [ref=e1443]: "6"
+                - generic [ref=e1444]: What areas would you suggest they focus on for development?
+              - generic [ref=e1445] [cursor=pointer]: Thank you!
+              - button "Add Question" [ref=e1446] [cursor=pointer]
+        - region "Notifications Alt+T":
+          - alert [ref=e1448] [cursor=pointer]:
+            - img [ref=e1450]
+            - text: Survey created successfully!
+            - button "close" [ref=e1452]:
+              - img [ref=e1453]
+            - progressbar "notification timer" [ref=e1457]
+      - contentinfo [ref=e223]:
+        - generic [ref=e226]: 2026 © Visipoint.
+  - iframe
+  - iframe [ref=e228]:
+    - img [ref=f9e4] [cursor=pointer]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - iframe [ref=e273]:
+            - img [ref=f46e8] [cursor=pointer]
+          - iframe [ref=e275]:
+            - img [ref=f47e8] [cursor=pointer]
+          - iframe [ref=e230]:
+            - img [ref=f18e8] [cursor=pointer]
+          - iframe [ref=e232]:
+            - img [ref=f19e8] [cursor=pointer]

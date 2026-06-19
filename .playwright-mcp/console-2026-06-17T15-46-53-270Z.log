@@ -1,0 +1,38 @@
+[     658ms] [WARNING] quill Overwriting modules/magicUrl with function t(e,n){var r=this;!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.quill=e,n=n||{},this.options=d(d({},f),n),this.urlNormalizer=function(t){return r.normalize(t)},this.mailNormalizer=function(t){return"mailto:".concat(t)},this.registerTypeListener(),this.registerPasteListener(),this.registerBlurListener()} @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:311
+[     707ms] [WARNING] Tracking code is missing. Clarity will not be initialized. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[     718ms] [LOG] Socket connected:  false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[     766ms] [ERROR] Error: <path> attribute d: Expected number, "… 2.27861 12.4233C2.16267 12.3648…". @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:78
+[     769ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[     769ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[     878ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[    1211ms] [WARNING] W0019 - DevExtreme: Unable to Locate a Valid License Key.
+
+Detailed license/registration related information and instructions: https://js.devexpress.com/Documentation/Licensing/.
+
+If you are using a 30-day trial version of DevExtreme, you must uninstall all copies of DevExtreme once your 30-day trial period expires. For terms and conditions that govern use of DevExtreme UI components/libraries, please refer to the DevExtreme End User License Agreement: https://js.devexpress.com/EULAs/DevExtremeComplete.
+
+To use DevExtreme in a commercial project, you must purchase a license. For pricing/licensing options, please visit: https://js.devexpress.com/Buy.
+
+If you have licensing-related questions or need help with a purchase, please email clientservices@devexpress.com.
+
+For additional information on this warning message, see: https://js.devexpress.com/error/23_2/W0019 @ https://visipoint.uk/widgets/react-survey-widget.iife.js:175
+[    1241ms] [LOG] WebSocket connected. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    2805ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/widget.css?10.6.7 ... @ :732
+[    2807ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/theme1.css?10.6.7 ... @ :735
+[    2808ms] [LOG] loading script https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true @ :783
+[    2808ms] [LOG] Requesting  https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true  as csp @ :804
+[    4591ms] [DIR] undefined @ /imports/modules/tool.guides/widget/client/redux/helpers/init.default.action.helper.js:0
+[    7786ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7788ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7806ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7810ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7902ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7906ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7921ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7922ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7934ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[    7939ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[   17804ms] [LOG] React widget: hasUnsavedChanges updated to false @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   29348ms] [LOG] React widget: hasUnsavedChanges updated to false @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   60295ms] [LOG] React widget: hasUnsavedChanges updated to false @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[   71366ms] [LOG] React widget: hasUnsavedChanges updated to false @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352

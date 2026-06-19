@@ -1,0 +1,500 @@
+[     423ms] [ERROR] Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID @ https://cdn.tooltip.io/static/player.js:0
+[   61234ms] [ERROR] Failed to load resource: net::ERR_CERT_COMMON_NAME_INVALID @ https://cdn.tooltip.io/static/player.js:0
+[  362877ms] [WARNING] quill Overwriting modules/magicUrl with function t(e,n){var r=this;!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,t),this.quill=e,n=n||{},this.options=d(d({},f),n),this.urlNormalizer=function(t){return r.normalize(t)},this.mailNormalizer=function(t){return"mailto:".concat(t)},this.registerTypeListener(),this.registerPasteListener(),this.registerBlurListener()} @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:311
+[  365408ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/widget.css?10.6.7 ... @ :732
+[  365408ms] [LOG] loading css https://cdnkm.helppier.com/widget/css/theme1.css?10.6.7 ... @ :735
+[  365409ms] [LOG] loading script https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true @ :783
+[  365409ms] [LOG] Requesting  https://cdnkm.helppier.com/widget/59f7d73e61399c2a0092959e1d4e968d7be91430.js?meteor_js_resource=true  as csp @ :804
+[  370243ms] [WARNING] WebSocket connection to 'wss://km.helppier.com/widget/sockjs/545/59r9z6xy/websocket' failed: WebSocket is closed before the connection is established. @ :93
+[  377696ms] [DIR] undefined @ /imports/modules/tool.guides/widget/client/redux/helpers/init.default.action.helper.js:0
+[  378450ms] [LOG] onPassportAuth {data: Object, status: 200, statusText: , headers: Object, config: Object} @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  378459ms] [WARNING] Tracking code is missing. Clarity will not be initialized. @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  378469ms] [LOG] Socket connected:  true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  378651ms] [LOG] setLanguage data en @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  379549ms] [ERROR] Error: <path> attribute d: Expected number, "… 2.27861 12.4233C2.16267 12.3648…". @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:78
+[  379586ms] [LOG] selectedUsersForPrint [] {id: undefined, name: undefined, subdomain: undefined, kiosks: undefined, is_approved: undefined} @ https://visipoint.uk/js/chunk-6aedbcaa.56b7e3ed.js:10
+[  382733ms] [LOG] setHeaders {url: /dailylog-data-grid} {status: success, message: get admin Preference successfully, data: Array(1)} @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  382738ms] [LOG] watch {columns: undefined, allowedPageSizes: undefined, filterPanel: undefined, filterValue: undefined, searchText: undefined} @ https://visipoint.uk/js/chunk-6aedbcaa.56b7e3ed.js:10
+[  383426ms] [WARNING] W1011 - The "keyExpr" option is not applied when dataSource is not an array. See:
+http://js.devexpress.com/error/21_2/W1011 @ https://visipoint.uk/js/chunk-vendors.a2e1fdb1.js:2681
+[  400161ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  400172ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  400185ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  400200ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  401044ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  401056ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  401397ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  401533ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  401534ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  401536ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  401876ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  401890ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  404207ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  404327ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  404327ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  404329ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  404335ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  404349ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  404906ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  405074ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  405126ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  405126ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  405128ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  405589ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  405603ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  405945ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  406125ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  406125ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  406127ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  406341ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  406355ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  406922ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  407124ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  407124ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  407126ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  407354ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  407367ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  408187ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  408326ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  408326ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  408328ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  408588ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  408601ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  408957ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  408973ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  408990ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409013ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409013ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409020ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409020ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409070ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409070ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409086ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409086ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409120ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409120ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409169ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409169ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409203ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409203ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409219ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409219ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409253ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409253ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409468ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409469ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409653ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409653ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409903ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  409903ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  410269ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  410269ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  410454ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  410454ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  410926ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  410926ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  411018ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  411018ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  411251ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  411251ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  411451ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  411451ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  412067ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  412067ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  412083ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  412083ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  412683ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  412683ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  413283ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  413283ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  415100ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  415100ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  415796ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  415796ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  415830ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  415830ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  415863ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  415863ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  416030ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  416030ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  417074ms] [LOG] setHeaders {url: /survey-journeys} {status: success, message: get admin Preference successfully, data: Array(1)} @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  417184ms] [LOG] setHeaders {url: /survey-journeys} {status: success, message: get admin Preference successfully, data: Array(1)} @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  419477ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  419477ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  419761ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  419761ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  420059ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  420059ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  422640ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  422640ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  422656ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  422665ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  422726ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  422726ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  422728ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  422733ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  422734ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  422734ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  422736ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  425654ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  425666ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  425670ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  425688ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  426553ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  426563ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427269ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427319ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427335ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427352ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427352ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427369ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427369ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427402ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427402ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427453ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427453ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427472ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427472ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427919ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427919ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427941ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427941ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427957ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427958ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427985ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  427985ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  428086ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  428086ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433063ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433063ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433080ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433080ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433097ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433097ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433113ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433114ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433130ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433139ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433181ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  433194ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  433195ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  433337ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  433337ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  433338ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  433345ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  433345ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  433346ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  433349ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  434046ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  434057ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  434398ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  434531ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  434532ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  434534ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  434539ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  434539ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  434539ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  434541ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  434828ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  434838ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  434895ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  435811ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  435821ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  436293ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  436333ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  436333ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  436334ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  436340ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  436340ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  436340ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  436342ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  436728ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  436738ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  437064ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  437123ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437124ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437125ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437133ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437133ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437133ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437135ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437476ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  437486ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  437909ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  437926ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437926ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437929ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437935ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437935ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437936ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  437937ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  438444ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  438456ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  438812ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  438929ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  438929ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  438931ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  438936ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  438936ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  438937ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  438939ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  441025ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  441034ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  441058ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  441422ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  441432ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  442365ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  442526ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  442526ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  442528ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  442533ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  442533ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  442533ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  442535ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  442838ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  442847ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  444803ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  444929ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  444929ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  444931ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  444938ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  444939ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  444939ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  444942ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  445419ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  445430ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  445689ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  445907ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  446651ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  446685ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  446685ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  446718ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  446718ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  446884ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  446884ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447052ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447052ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447056ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447056ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447184ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447184ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447224ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447224ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447267ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447267ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447284ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447284ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447517ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447517ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447767ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  447767ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  449498ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  449498ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  449616ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  449616ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  450700ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  450701ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  450880ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  450881ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  450947ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  450947ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  451730ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  451730ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  451813ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  451813ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  452097ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  452097ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  452130ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  452130ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  452426ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  452426ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  452779ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  452779ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  453411ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  453412ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  453945ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  453946ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  454011ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  454011ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  454044ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  454044ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  454094ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  454094ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  454194ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  454194ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455310ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455310ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455326ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455326ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455360ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455361ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455376ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455376ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455676ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455687ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  455727ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  455727ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  455730ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  455736ms] [LOG] Failed to calculate the element positioning; could be out of viewport @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  455736ms] [ERROR] Could not calculate the dimensions for the element @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  455736ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  455738ms] [ERROR] Element has not been positioned @ /imports/modules/widget.base/client/globals/helppier.app.logger.jsx:0
+[  455993ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  456001ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  456011ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  456011ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  456028ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  456034ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485482ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485490ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485572ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485572ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485594ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485594ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485601ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485614ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485734ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485831ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  485850ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  486031ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  486247ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  486264ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  486931ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  486963ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  486996ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487015ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487015ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487048ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487048ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487214ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487214ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487269ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487270ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487463ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487464ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487486ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487486ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487530ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487530ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487563ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487563ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487829ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487829ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487854ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487854ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487919ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  487922ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489261ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489264ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489478ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489478ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489533ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489533ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489794ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489795ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489850ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489850ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489994ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  489999ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  496271ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  496273ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  496305ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  496305ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  496560ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  496561ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  496577ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  496580ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  502635ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  502636ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  502705ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  502705ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  502750ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  502754ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503032ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503035ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503066ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503067ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503115ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503115ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503182ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503182ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503265ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503265ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503331ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503332ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503675ms] [ERROR] Error: <path> attribute d: Expected number, "… 2.27861 12.4233C2.16267 12.3648…". @ https://widget.getgist.com/:0
+[  503681ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503681ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503734ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503734ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503765ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503765ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503781ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503781ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503914ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503915ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503932ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  503935ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504299ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504300ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504304ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504304ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504397ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504397ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504420ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504420ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504519ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  504522ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  508876ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  508879ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  508892ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  508893ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509093ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509094ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509691ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509692ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509709ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509709ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509727ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509728ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509776ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509776ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509842ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509842ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509992ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  509992ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  510432ms] [ERROR] Error: <path> attribute d: Expected number, "… 2.27861 12.4233C2.16267 12.3648…". @ https://widget.getgist.com/:0
+[  511044ms] [ERROR] Error: <path> attribute d: Expected number, "… 2.27861 12.4233C2.16267 12.3648…". @ https://widget.getgist.com/:0
+[  511657ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511657ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511673ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511674ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511690ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511690ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511707ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511707ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511757ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511757ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511790ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  511790ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  512090ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  512090ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  512495ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  512495ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  512582ms] [LOG] initial_screen list @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352
+[  512893ms] [WARNING] W0019 - DevExtreme: Unable to Locate a Valid License Key.
+
+Detailed license/registration related information and instructions: https://js.devexpress.com/Documentation/Licensing/.
+
+If you are using a 30-day trial version of DevExtreme, you must uninstall all copies of DevExtreme once your 30-day trial period expires. For terms and conditions that govern use of DevExtreme UI components/libraries, please refer to the DevExtreme End User License Agreement: https://js.devexpress.com/EULAs/DevExtremeComplete.
+
+To use DevExtreme in a commercial project, you must purchase a license. For pricing/licensing options, please visit: https://js.devexpress.com/Buy.
+
+If you have licensing-related questions or need help with a purchase, please email clientservices@devexpress.com.
+
+For additional information on this warning message, see: https://js.devexpress.com/error/23_2/W0019 @ https://visipoint.uk/widgets/react-survey-widget.iife.js:175
+[  514224ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  514224ms] [LOG] setIsHovered true @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  514238ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  514243ms] [LOG] setIsHovered false @ https://visipoint.uk/js/app.2bc90c3d.js:0
+[  624027ms] [LOG] React widget: hasUnsavedChanges updated to false @ https://visipoint.uk/widgets/react-survey-widget.iife.js:352

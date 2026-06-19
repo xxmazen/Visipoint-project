@@ -1,0 +1,33 @@
+[ERROR] 19-06-2026 21:21:58 [main] [Listeners.CustomListeners] - FAILED   : VerifyLoginWithInvalidEmail — no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67f74395aff1a6154161b5d2aec266d7, findElement {value=[role="alert"], using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ACC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59087}, goog:processID: 11628, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59087/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 67f74395aff1a6154161b5d2aec266d7
+[ERROR] 19-06-2026 21:22:05 [main] [Listeners.CustomListeners] - FAILED   : VerifyLoginWithInvalidPassword — no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [535b404078f1de820fe03827951ea91b, findElement {value=[role="alert"], using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ACC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61368}, goog:processID: 14152, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61368/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 535b404078f1de820fe03827951ea91b
+[ERROR] 19-06-2026 21:22:20 [main] [Listeners.CustomListeners] - FAILED   : VerifyLoginWithInvalidEmailAndPassword — no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acfeb3bc1d5a25a588d1fdc175193e9c, findElement {value=[role="alert"], using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\ACC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58627}, goog:processID: 22000, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58627/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acfeb3bc1d5a25a588d1fdc175193e9c
+[ERROR] 19-06-2026 21:22:31 [main] [Listeners.CustomListeners] - FAILED   : VerifyLoginWithEmptyCredentials — Expected condition failed: waiting for visibility of element found by By.id: email
+(tried for 5 seconds with 500 milliseconds interval)
+[ERROR] 19-06-2026 21:22:53 [main] [Listeners.CustomListeners] - FAILED   : forgotPasswordLinkNavigation — Expected condition failed: waiting for element found by By.linkText: Forgot password? to be clickable, but the element null.
+(tried for 5 seconds with 500 milliseconds interval)
+[ERROR] 19-06-2026 21:23:15 [main] [Listeners.CustomListeners] - FAILED   : forgotPasswordWithValidEmail — Expected condition failed: waiting for element found by By.linkText: Forgot password? to be clickable, but the element null.
+(tried for 5 seconds with 500 milliseconds interval)

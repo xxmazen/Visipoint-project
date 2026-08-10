@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Visipoint Performance Test — Bug Report</title>
+<style>
+  @page { size: A4; margin: 20mm 16mm; }
+  body {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.5;
+    font-size: 11pt;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 20pt;
+    border-bottom: 3px solid #b91c1c;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+  }
+  h2 {
+    font-size: 14pt;
+    margin-top: 28px;
+    color: #b91c1c;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+  h3 {
+    font-size: 12.5pt;
+    margin-top: 20px;
+    color: #111;
+  }
+  .meta {
+    background: #f5f5f5;
+    border-left: 4px solid #666;
+    padding: 10px 14px;
+    font-size: 9.5pt;
+    margin-bottom: 20px;
+  }
+  .meta div { margin: 2px 0; }
+  .meta b { display: inline-block; min-width: 110px; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0 18px 0;
+    font-size: 9.5pt;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: #f0f0f0;
+    font-weight: 600;
+  }
+  .field-table th { width: 130px; background: #fafafa; }
+  .severity-high { color: #b91c1c; font-weight: 700; }
+  .severity-medium { color: #c2410c; font-weight: 700; }
+  .bug-header {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-left: 5px solid #b91c1c;
+    padding: 10px 14px;
+    margin-top: 26px;
+    font-size: 13pt;
+    font-weight: 700;
+  }
+  .callout {
+    background: #fffbeb;
+    border-left: 4px solid #d97706;
+    padding: 10px 14px;
+    margin: 12px 0;
+    font-size: 10pt;
+  }
+  code {
+    background: #f0f0f0;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 9.5pt;
+    font-family: Consolas, monospace;
+  }
+  .appendix {
+    margin-top: 30px;
+    padding-top: 14px;
+    border-top: 2px dashed #999;
+    font-size: 9.5pt;
+    color: #444;
+  }
+  strong { font-weight: 700; }
+</style>
+</head>
+<body>
+
+<h1>Visipoint Performance Test — Bug Report</h1>
+
+<div class="meta">
+  <div><b>Test date:</b> 2026-08-02</div>
+  <div><b>Test type:</b> Load test — 1000 concurrent virtual users, 30s ramp-up, single account, Login → Logout per user</div>
+  <div><b>Tool:</b> Apache JMeter 5.6.3</div>
+  <div><b>Test plan:</b> <code>D:\apache-jmeter-5.6.3\visipoint-project\visipoint-load-test.jmx</code></div>
+  <div><b>Raw results:</b> <code>results.jtl</code> (contains duplicate-logging artifact, see Appendix) / <code>results-clean.csv</code> (deduplicated, used below)</div>
+  <div><b>Tester:</b> Claude (JMeter load test, built from a real captured login/logout request; user executed the run)</div>
+</div>
+
+<h2>Summary Results</h2>
+<table>
+  <tr><th>Step</th><th>Success</th><th>Failed</th><th>Avg</th><th>P50</th><th>P95</th><th>P99</th><th>Max</th></tr>
+  <tr><td><b>Login</b></td><td>864/1000 (86.4%)</td><td>136 (13.6%)</td><td>34.0s</td><td>22.9s</td><td>88.6s</td><td>152.5s</td><td>299.4s</td></tr>
+  <tr><td><b>Logout</b></td><td>119/1000 (11.9%)</td><td>881 (88.1%)</td><td>11.0s</td><td>0.7s</td><td>72.5s</td><td>77.7s</td><td>175.2s</td></tr>
+</table>
+
+<div class="bug-header">BUG-PERF-001 — Concurrent logins from the same account invalidate each other's session, breaking Logout with 401</div>
+
+<table class="field-table">
+  <tr><th>Module</th><td>Passport Account — Authentication / Session Management</td></tr>
+  <tr><th>Endpoint</th><td><code>GET https://api.visipoint.me/api/logout</code> (session via <code>POST https://api.visipoint.me/api/login</code>)</td></tr>
+  <tr><th>Severity</th><td class="severity-high">High</td></tr>
+  <tr><th>Status</th><td>New</td></tr>
+</table>
+
+<table>
+  <tr><th>#</th><th>Step</th><th>Expected</th><th>Actual</th></tr>
+  <tr>
+    <td>1</td>
+    <td>Send 1000 concurrent <code>POST /api/login</code> requests for the <b>same account</b>, ramped over 30s</td>
+    <td>Each login succeeds, returns a valid, independently-usable access_token</td>
+    <td>864/1000 (86.4%) returned <code>200 OK</code> with a token — server accepted the concurrent logins</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Immediately after login, send <code>GET /api/logout</code> using that thread's own token</td>
+    <td>Each logout succeeds (200 OK), invalidating only that session</td>
+    <td><b>881/1000 (88.1%) failed.</b> 869 returned a clean <code>401 Unauthorized</code> — not a timeout or connection error</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Compare failure pattern against timing</td>
+    <td>If tokens simply expired, failures would be random/timing-independent</td>
+    <td>Failure rate (88%) tracks the volume of concurrent logins on the same account — consistent with each new login invalidating the previous session's token</td>
+  </tr>
+</table>
+
+<p><b>Expected:</b> Each of the 1000 simulated logins/sessions should be independent — logging in a second time (e.g., another device/tab) should not silently invalidate a different active session for the same account.</p>
+
+<p><b>Actual:</b> 88.1% of logout attempts fail with <code>401 Unauthorized</code>, indicating concurrent logins to the same account invalidate each other's tokens server-side.</p>
+
+<p><b>Root cause (assessed, not yet confirmed against backend code):</b> The auth/session backend appears to allow only one active token per account (or otherwise invalidates prior tokens on new login) rather than maintaining independent, concurrently-valid sessions. This is a <b>session-management architecture issue</b>, not a load-capacity issue — Login itself succeeded cleanly in the large majority of cases (86.4% with 200 OK, zero 401s on Login). The system correctly processes each login; as a side effect, it disqualifies the previous session.</p>
+
+<div class="callout"><b>Why this matters beyond the load test:</b> This same mechanism would affect any real user logging into the same account from two places in quick succession (two browser tabs, phone + laptop) — the first session could unexpectedly fail with 401 on its next authenticated call once the second login completes. Recommend verifying this against normal (non-load-test) multi-session usage — it may reproduce with as few as 2 concurrent logins, not just 1000.</div>
+
+<div class="bug-header">BUG-PERF-002 — Login response time degrades severely under concurrent load (median 22.9s, P99 152.5s, max ~5 min)</div>
+
+<table class="field-table">
+  <tr><th>Module</th><td>Passport Account — Authentication</td></tr>
+  <tr><th>Endpoint</th><td><code>POST https://api.visipoint.me/api/login</code></td></tr>
+  <tr><th>Severity</th><td class="severity-medium">Medium-High (see attribution caveat below)</td></tr>
+  <tr><th>Status</th><td>New</td></tr>
+</table>
+
+<table>
+  <tr><th>#</th><th>Step</th><th>Expected</th><th>Actual</th></tr>
+  <tr>
+    <td>1</td>
+    <td>Ramp up 1000 concurrent login requests over 30 seconds</td>
+    <td>Response times stay reasonably close to baseline, or degrade gracefully</td>
+    <td>Median (P50): <b>22.9s</b>. P95: 88.6s. P99: 152.5s. Max: <b>299.4s</b> (~5 min) for a single login</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Track throughput (completed requests/sec) over the run</td>
+    <td>Throughput stays roughly stable or degrades gracefully</td>
+    <td>Throughput <b>collapsed</b>: ~26 req/s in the first ~30s window, down to <b>0.5 req/s</b> in the final ~3.5-minute window</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Check whether failures were server rejections or connection-level</td>
+    <td>Explicit server rejection under load would show as HTTP error codes (429, 503, etc.)</td>
+    <td>136/1000 (13.6%) Login failures were <b>connection-level</b> (HttpHostConnectException, SocketException) — no HTTP error codes; the server never explicitly refused a login</td>
+  </tr>
+</table>
+
+<p><b>Expected:</b> A login request should complete in roughly 1-2 seconds under normal conditions; under 1000-concurrent-user load, some degradation is expected but should not extend into tens of seconds to minutes for a majority of requests.</p>
+
+<p><b>Actual:</b> Response times ballooned by 1-2 orders of magnitude as load increased, with throughput visibly collapsing rather than stabilizing — consistent with request queuing/backlog building faster than the system could drain it.</p>
+
+<p><b>Root cause — NOT fully isolated, attribution caveat:</b> Two possible contributing causes cannot be conclusively separated from this single-machine test:</p>
+<ol>
+  <li><b>Backend capacity limit</b> — the Visipoint auth backend genuinely struggling with 1000 concurrent logins (DB connection pool exhaustion, per-login encryption/decryption CPU cost, etc.)</li>
+  <li><b>Load-generator capacity limit</b> — a single machine originating 1000 concurrent HTTPS connections is itself resource-intensive (TLS handshake overhead, OS socket/file-descriptor limits, JMeter's default connection pool sizing)</li>
+</ol>
+
+<div class="callout"><b>To resolve the ambiguity:</b> re-run with either (a) a distributed load generator (multiple machines) to rule out client-side bottlenecks, or (b) server-side monitoring (CPU, DB connection pool usage, request queue depth) captured during the run to directly observe where time is being spent.</div>
+
+<div class="appendix">
+  <b>Appendix: JMX listener duplication artifact (test-tooling issue, not a product bug).</b>
+  The raw <code>results.jtl</code> file contains exactly 2x the real sample count (4000 rows instead of 2000) because the test plan had two listeners both writing to a file named <code>results.jtl</code> — one embedded in the JMX ("View Results Tree"), one from the <code>-l results.jtl</code> CLI flag. The two listeners used slightly different column layouts, so interleaved rows in the raw file are misaligned every other row. All analysis in this report used a filtered, deduplicated dataset (<code>results-clean.csv</code>, 1000 Login + 1000 Logout rows, verified against the live console summary counts). Future test plans should use only one results listener.
+</div>
+
+</body>
+</html>

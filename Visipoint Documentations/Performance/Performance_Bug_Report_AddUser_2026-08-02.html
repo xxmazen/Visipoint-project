@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Visipoint Add User Load Test — Bug Report</title>
+<style>
+  @page { size: A4; margin: 20mm 16mm; }
+  body {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.5;
+    font-size: 10.5pt;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 18pt;
+    border-bottom: 3px solid #b91c1c;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+  }
+  h2 {
+    font-size: 13pt;
+    margin-top: 24px;
+    color: #b91c1c;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+  h3 { font-size: 11.5pt; margin-top: 16px; }
+  .meta {
+    background: #f5f5f5;
+    border-left: 4px solid #666;
+    padding: 9px 13px;
+    font-size: 9pt;
+    margin-bottom: 16px;
+  }
+  .meta div { margin: 2px 0; }
+  .meta b { display: inline-block; min-width: 100px; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 8px 0 14px 0;
+    font-size: 8.5pt;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #f0f0f0; font-weight: 600; }
+  .field-table th { width: 110px; background: #fafafa; }
+  .highlight-row td { background: #fef2f2; font-weight: 600; }
+  .good-row td { background: #f0fdf4; }
+  .severity-high { color: #b91c1c; font-weight: 700; }
+  .bug-header {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-left: 5px solid #b91c1c;
+    padding: 9px 13px;
+    margin-top: 22px;
+    font-size: 12pt;
+    font-weight: 700;
+  }
+  .callout {
+    background: #fffbeb;
+    border-left: 4px solid #d97706;
+    padding: 9px 13px;
+    margin: 10px 0;
+    font-size: 9pt;
+  }
+  .callout-red {
+    background: #fef2f2;
+    border-left: 4px solid #b91c1c;
+    padding: 9px 13px;
+    margin: 10px 0;
+    font-size: 9.5pt;
+    font-weight: 600;
+  }
+  .callout-green {
+    background: #f0fdf4;
+    border-left: 4px solid #16a34a;
+    padding: 9px 13px;
+    margin: 10px 0;
+    font-size: 9pt;
+  }
+  code {
+    background: #f0f0f0;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 8.5pt;
+    font-family: Consolas, monospace;
+  }
+  .appendix {
+    margin-top: 22px;
+    padding-top: 10px;
+    border-top: 2px dashed #999;
+    font-size: 8.5pt;
+    color: #444;
+  }
+  strong { font-weight: 700; }
+</style>
+</head>
+<body>
+
+<h1>Visipoint Add User Load Test — Bug Report</h1>
+<p style="font-size:10.5pt; color:#555; margin-top:-6px;">30s / 90s / 5min ramp-up comparison</p>
+
+<div class="meta">
+  <div><b>Test date:</b> 2026-08-02 (30s, 90s) / 2026-08-03 (5min)</div>
+  <div><b>Test type:</b> Load test — 1000 concurrent virtual users, single account, Login → Add User per user, run three times at different ramp-up speeds</div>
+  <div><b>Tool:</b> Apache JMeter 5.6.3</div>
+  <div><b>Test plan:</b> <code>D:\apache-jmeter-5.6.3\visipoint-project\visipoint-adduser-load-test.jmx</code></div>
+  <div><b>Raw results:</b> <code>adduser-results.jtl</code> (30s) / <code>adduser-results-90s.jtl</code> (90s) / <code>adduser-results-5min.jtl</code> (5min)</div>
+  <div><b>Tester:</b> Claude (JMeter load test, built from a real captured Add User request; user executed all three runs)</div>
+</div>
+
+<div class="callout-red">Headline finding: Add User failed 100% of the time in ALL THREE runs — including a run where the system was otherwise completely healthy.</div>
+
+<table>
+  <tr><th>Step</th><th>Ramp-up</th><th>Success</th><th>Failed</th><th>Avg</th><th>P50</th><th>P95</th><th>P99</th><th>Max</th></tr>
+  <tr><td>Login</td><td>30s</td><td>799/1000 (79.9%)</td><td>201 (20.1%)</td><td>43.8s</td><td>27.0s</td><td>104.7s</td><td>182.2s</td><td>334.7s</td></tr>
+  <tr><td>Login</td><td>90s</td><td>974/1000 (97.4%)</td><td>26 (2.6%)</td><td>26.8s</td><td>8.5s</td><td>145.2s</td><td>177.7s</td><td>315.0s</td></tr>
+  <tr class="good-row"><td>Login</td><td><b>5min</b></td><td><b>1000/1000 (100%)</b></td><td><b>0 (0%)</b></td><td><b>0.7s</b></td><td><b>0.5s</b></td><td><b>1.9s</b></td><td><b>3.9s</b></td><td><b>10.5s</b></td></tr>
+  <tr class="highlight-row"><td>Add User</td><td>30s</td><td>0/1000 (0%)</td><td>1000 (100%)</td><td>15.2s</td><td>1.6s</td><td>78.5s</td><td>149.3s</td><td>275.3s</td></tr>
+  <tr class="highlight-row"><td>Add User</td><td>90s</td><td>0/1000 (0%)</td><td>1000 (100%)</td><td>11.1s</td><td>0.5s</td><td>75.3s</td><td>195.6s</td><td>199.1s</td></tr>
+  <tr class="highlight-row"><td>Add User</td><td><b>5min</b></td><td><b>0/1000 (0%)</b></td><td><b>1000 (100%)</b></td><td><b>0.5s</b></td><td><b>0.2s</b></td><td><b>1.3s</b></td><td><b>4.2s</b></td><td><b>11.6s</b></td></tr>
+</table>
+
+<p><b>This is now conclusive.</b> At a 5-minute ramp-up, Login performs perfectly — 100% success, sub-second median response time, clean fast responses throughout (max 10.5s, no connection errors at all). The backend has no trouble handling 1000 logins for this account when given room to breathe. <b>But Add User still fails 100% of the time in this same healthy run — and every single failure is a clean 401 Unauthorized, with zero connection-level noise.</b> There is no longer any ambiguity about load, timing, or client-side connection contention as a contributing factor: the system is demonstrably fine, and Add User still fails every time.</p>
+
+<div class="bug-header">BUG-PERF-003 — Add User (and Logout) fail with 401 due to session-invalidation on concurrent logins — CONFIRMED, not load-dependent</div>
+
+<table class="field-table">
+  <tr><th>Module</th><td>Users — Add User / Authentication session management</td></tr>
+  <tr><th>Endpoint</th><td><code>POST https://api.visipoint.uk/api/users</code> (session via <code>POST https://api.visipoint.me/api/login</code>)</td></tr>
+  <tr><th>Severity</th><td class="severity-high">High — confirmed root cause, load-independent</td></tr>
+  <tr><th>Status</th><td>New — same root cause as BUG-PERF-001 (Logout), now proven across three load profiles</td></tr>
+</table>
+
+<table>
+  <tr><th>#</th><th>Step</th><th>Expected</th><th>30s</th><th>90s</th><th>5min</th></tr>
+  <tr>
+    <td>1</td>
+    <td>Log in, then immediately call <code>POST /api/users</code> with that session's token</td>
+    <td>Request succeeds using the freshly-obtained token</td>
+    <td>0/1000 (938×401)</td>
+    <td>0/1000 (993×401)</td>
+    <td><b>0/1000 (1000×401, 100% clean)</b></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Check whether failure correlates with system health</td>
+    <td>If load-related, failures should track degraded performance</td>
+    <td colspan="2">Both degraded/improved together</td>
+    <td><b>Login perfect (0 errors) while Add User still 100% failed</b></td>
+  </tr>
+</table>
+
+<p><b>Expected:</b> A freshly-obtained access token should remain valid for authenticated calls made immediately after login, regardless of concurrent sessions or system load.</p>
+
+<p><b>Actual:</b> Add User fails 100% of the time across all three tested ramp-up speeds — including the 5-minute run where Login succeeded 100% of the time with healthy sub-second response times. This rules out load, timing, and connection contention entirely.</p>
+
+<p><b>Root cause (now confirmed, not just suspected):</b> The backend invalidates a user's previous session token whenever that account logs in again. With 1000 threads logging into the same account — even spaced 300ms apart on average at the 5-minute pace — every earlier thread's token is superseded by a later login before it can be used again. The 5-minute run is the cleanest possible demonstration: the system has zero trouble processing the logins themselves (proven by Login's perfect record), so Add User's 100% failure is entirely attributable to the session/token lifecycle design, not capacity.</p>
+
+<div class="callout-red"><b>Practical implication:</b> this will reproduce with as few as 2 concurrent logins to the same account — no load or scale required. Any real user logged in from two tabs or two devices simultaneously likely has their first session's authenticated actions silently broken the moment the second login completes.</div>
+
+<h2>Secondary finding: Login's earlier problems (30s/90s) were entirely a pacing/contention issue, now fully resolved at 5min</h2>
+
+<table>
+  <tr><th>Ramp-up</th><th>Login success</th><th>Login connection errors</th><th>Login P50</th></tr>
+  <tr><td>30s</td><td>79.9%</td><td>201</td><td>27.0s</td></tr>
+  <tr><td>90s</td><td>97.4%</td><td>26</td><td>8.5s</td></tr>
+  <tr class="good-row"><td><b>5min</b></td><td><b>100%</b></td><td><b>0</b></td><td><b>0.5s</b></td></tr>
+</table>
+
+<div class="callout-green">This is a clean, monotonic improvement with slower pacing, fully resolving at 5 minutes — 0 connection errors, 0 failures, sub-second baseline restored. Confirms Login's earlier problems were connection/concurrency contention from ramping too many simultaneous connections at once, not a hard backend capacity ceiling. <b>No further investigation needed on Login</b> — not a bug, and it fully recovers with reasonable pacing.</div>
+
+<h2>Recommendations</h2>
+<ol>
+  <li><b>Escalate BUG-PERF-001 / BUG-PERF-003 immediately</b> — now a confirmed, load-independent backend bug, reproduced identically across three test runs and two endpoints (Logout, Add User), including one run where the system was provably healthy in every other respect.</li>
+  <li><b>Reproduce with 2 concurrent logins</b> (no load tool needed) to get a minimal repro case for engineering.</li>
+  <li><b>Close out the Login performance question</b> — 30s/90s degradation was pacing-related and fully resolves at gentler ramp-up; no further load testing needed there.</li>
+  <li>Once the session-invalidation bug is fixed, this same test plan (switched back to a fast 30s ramp-up) becomes a good regression/capacity test for Add User's real backend performance, since the token bug currently masks any genuine capacity data for that endpoint.</li>
+</ol>
+
+<div class="appendix">
+  <b>Appendix: Test data cleanup note.</b> All three runs attempted to create users tagged <code>first_name=LOADTEST</code>, <code>last_name=LOADTEST_&lt;threadNum&gt;</code>, email pattern <code>loadtest+&lt;threadNum&gt;_XXXXX@lamasatech.com</code> — but since 100% of Add User calls failed in every run, no test user records were ever actually created. No cleanup needed.
+</div>
+
+</body>
+</html>

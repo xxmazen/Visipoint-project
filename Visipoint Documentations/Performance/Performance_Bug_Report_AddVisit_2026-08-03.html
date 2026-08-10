@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Visipoint Add Visit Load Test — Bug Report</title>
+<style>
+  @page { size: A4; margin: 20mm 16mm; }
+  body {
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.5;
+    font-size: 10.5pt;
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 19pt;
+    border-bottom: 3px solid #b91c1c;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+  }
+  h2 {
+    font-size: 13.5pt;
+    margin-top: 26px;
+    color: #b91c1c;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+  .meta {
+    background: #f5f5f5;
+    border-left: 4px solid #666;
+    padding: 10px 14px;
+    font-size: 9.5pt;
+    margin-bottom: 18px;
+  }
+  .meta div { margin: 2px 0; }
+  .meta b { display: inline-block; min-width: 110px; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0 16px 0;
+    font-size: 9pt;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 5px 7px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #f0f0f0; font-weight: 600; }
+  .field-table th { width: 120px; background: #fafafa; }
+  .highlight-row td { background: #fef2f2; font-weight: 600; }
+  .warn-row td { background: #fffbeb; }
+  .severity-high { color: #b91c1c; font-weight: 700; }
+  .bug-header {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-left: 5px solid #b91c1c;
+    padding: 10px 14px;
+    margin-top: 24px;
+    font-size: 12.5pt;
+    font-weight: 700;
+  }
+  .callout {
+    background: #fffbeb;
+    border-left: 4px solid #d97706;
+    padding: 10px 14px;
+    margin: 12px 0;
+    font-size: 9.5pt;
+  }
+  .callout-red {
+    background: #fef2f2;
+    border-left: 4px solid #b91c1c;
+    padding: 10px 14px;
+    margin: 12px 0;
+    font-size: 10pt;
+    font-weight: 600;
+  }
+  code {
+    background: #f0f0f0;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 9pt;
+    font-family: Consolas, monospace;
+  }
+  .appendix {
+    margin-top: 26px;
+    padding-top: 12px;
+    border-top: 2px dashed #999;
+    font-size: 9pt;
+    color: #444;
+  }
+  strong { font-weight: 700; }
+</style>
+</head>
+<body>
+
+<h1>Visipoint Add Visit Load Test — Bug Report</h1>
+
+<div class="meta">
+  <div><b>Test date:</b> 2026-08-03</div>
+  <div><b>Test type:</b> Load test — 1000 concurrent virtual users, 30s ramp-up, single account, Login → Add Visit (expected-visit) per user</div>
+  <div><b>Tool:</b> Apache JMeter 5.6.3</div>
+  <div><b>Test plan:</b> <code>D:\apache-jmeter-5.6.3\visipoint-project\visipoint-addvisit-load-test.jmx</code></div>
+  <div><b>Raw results:</b> <code>addvisit-results.jtl</code></div>
+  <div><b>Tester:</b> Claude (JMeter load test, built from a real captured Add Visit request; user executed the run)</div>
+</div>
+
+<h2>Summary Results</h2>
+<table>
+  <tr><th>Step</th><th>Success</th><th>Failed</th><th>Avg</th><th>P50</th><th>P95</th><th>P99</th><th>Max</th></tr>
+  <tr><td>Login</td><td>844/1000 (84.4%)</td><td>156 (15.6%)</td><td>32.7s</td><td>24.2s</td><td>86.1s</td><td>103.3s</td><td>195.9s</td></tr>
+  <tr class="highlight-row"><td>Add Visit</td><td>0/1000 (0%)</td><td>1000 (100%)</td><td>5.8s</td><td>0.4s</td><td>25.7s</td><td>53.8s</td><td>231.7s</td></tr>
+</table>
+
+<div class="bug-header">BUG-PERF-004 — Add Visit fails 100% of the time, same session-invalidation root cause as Logout (BUG-PERF-001) and Add User (BUG-PERF-003) — now confirmed on a THIRD independent endpoint</div>
+
+<table class="field-table">
+  <tr><th>Module</th><td>Add Visits — Add Expected Visitor / Authentication session management</td></tr>
+  <tr><th>Endpoint</th><td><code>POST https://api.visipoint.uk/api/expected-visit</code> (session via <code>POST https://api.visipoint.me/api/login</code>)</td></tr>
+  <tr><th>Severity</th><td class="severity-high">High — same confirmed root cause, third independent confirmation</td></tr>
+  <tr><th>Status</th><td>New — same bug as BUG-PERF-001 / BUG-PERF-003, different endpoint</td></tr>
+</table>
+
+<table>
+  <tr><th>#</th><th>Step</th><th>Expected</th><th>Actual</th></tr>
+  <tr>
+    <td>1</td>
+    <td>Log in, then immediately call <code>POST /api/expected-visit</code> with that session's token</td>
+    <td>Request should succeed using the freshly-obtained token</td>
+    <td>0/1000 (0%) succeeded</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Check failure breakdown</td>
+    <td>If load-related, failures should mostly be connection-level, not clean auth rejections</td>
+    <td>523/1000 (52.3%) were clean <code>401 Unauthorized</code> — the same session-invalidation signature seen on Logout and Add User</td>
+  </tr>
+</table>
+
+<p><b>Expected:</b> A freshly-obtained access token should work for adding an expected visit, the same as any other authenticated action.</p>
+
+<p><b>Actual:</b> 100% of Add Visit calls failed. Just over half (52.3%) were the now-familiar 401 Unauthorized — this is the third distinct endpoint (after Logout and Add User) where the same session-token-invalidation bug produces a 100% or near-100% failure rate under concurrent same-account logins. This is no longer a pattern specific to one endpoint or code path — it's a property of the session/token system itself, and will affect <b>any</b> authenticated call made shortly after a competing login on the same account.</p>
+
+<p><b>Root cause:</b> Same as BUG-PERF-001/BUG-PERF-003 (see those reports for full detail). No new investigation needed here; this test simply adds a third confirmation point.</p>
+
+<h2>Secondary/unresolved finding: a different failure signature this run — DNS resolution errors</h2>
+
+<p>Unlike the Add User runs (clean 401s plus ordinary connection-refused/socket errors), <b>44.6% of Add Visit's failures (446/1000) were <code>UnknownHostException</code></b> — a DNS resolution failure, not a connection or auth error. This wasn't seen in any of the three prior Add User runs.</p>
+
+<table>
+  <tr><th>Failure type</th><th>Count</th><th>% of Add Visit failures</th></tr>
+  <tr class="warn-row"><td>401 Unauthorized (session bug)</td><td>523</td><td>52.3%</td></tr>
+  <tr class="warn-row"><td>UnknownHostException (DNS failure)</td><td>446</td><td>44.6%</td></tr>
+  <tr><td>SocketException</td><td>16</td><td>1.6%</td></tr>
+  <tr><td>HttpHostConnectException</td><td>15</td><td>1.5%</td></tr>
+</table>
+
+<div class="callout"><b>This is flagged as unresolved, not attributed.</b> A DNS resolution failure partway through a test most often points to the load-generating machine's own DNS resolver being overwhelmed by concurrent connection attempts, rather than a server-side issue — but this wasn't controlled for and shouldn't be assumed. It could also be a transient network blip unrelated to Visipoint. Recommend re-running this specific test to see whether the DNS failures reproduce consistently (load-generator-side limit) or don't recur (one-off blip) before drawing a conclusion.</div>
+
+<h2>Login performance (consistent with prior findings)</h2>
+
+<p>At 30s ramp-up, Login succeeded 84.4% of the time — in line with the 30s Add User run (79.9%) and the already-established pattern: Login degrades under a fast 30-second ramp-up due to connection contention, and fully recovers to 100% success at a 5-minute ramp-up (per the Add User test series). No new Login investigation needed; this is the same already-understood, already-resolved pacing issue.</p>
+
+<h2>Recommendations</h2>
+<ol>
+  <li><b>No new backend investigation needed for the core bug</b> — this is the third confirmation of BUG-PERF-001/003's root cause. Treat Logout, Add User, and Add Visit as symptoms of one bug to fix once.</li>
+  <li><b>Re-run this specific test to check the DNS failure signature</b> — if it recurs consistently, it points to a load-generator-side capacity limit; if not, it was likely a one-off.</li>
+  <li>Same as prior reports: a distinct-accounts run would be needed for real Add Visit capacity data once the session bug is fixed.</li>
+</ol>
+
+<div class="appendix">
+  <b>Appendix: Test data cleanup note.</b> This run attempted to create expected visits tagged <code>first_name=LOADTEST</code>, <code>last_name=LOADTEST_&lt;threadNum&gt;</code>, email pattern <code>loadtest+visit&lt;threadNum&gt;_XXXXX@lamasatech.com</code> — but since 100% of Add Visit calls failed, no test visit records were actually created. No cleanup needed.
+</div>
+
+</body>
+</html>

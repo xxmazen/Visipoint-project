@@ -106,7 +106,7 @@ public class login {
     @Test(priority = 7)
     public void forgotPasswordWithValidEmail() {
          new Login_Page(driver)
-                  .forgotPasswordWithValidEmail("m.mohamed+2468@lamasatech.com")
+                  .forgotPasswordWithValidEmail(PropertiesReader.getProperty("validEmail"))
                   .isErrorMessageDisplayed("Please check your email");
 
     }
@@ -116,7 +116,7 @@ public class login {
     @Test(priority = 8)
     public void forgotPasswordWithInvalidEmail() {
          new Login_Page(driver)
-                   .forgotPasswordWithInvalidEmail("m.mohamed+2468lamasatech.com")
+                   .forgotPasswordWithInvalidEmail(PropertiesReader.getProperty("invalidEmail"))
                    .isValidationMessageDisplayed("Invalid email address");
 
     }
@@ -146,7 +146,7 @@ public class login {
     @Test(priority = 11)
     public void verifyFunctionalityWhenUserEnterValidPhoneNumber() {
          new Login_Page(driver)
-                  .verifyFunctionalityWhenUserEnterValidPhoneNumber("224535463546456")
+                  .verifyFunctionalityWhenUserEnterValidPhoneNumber(PropertiesReader.getProperty("validPhone"))
                   .isOtpMessageDisplayed("We sent you an SMS with a 6 digit code.");
     }
 
@@ -174,7 +174,7 @@ public class login {
     @Test(priority = 14)
     public void verifyFunctionalityWhenUserEnterCharactersWithNumbersIntoThePhoneNumberField() {
         new Login_Page(driver)
-                .verifyFunctionalityWhenUserEnterCharactersWithNumbersIntoThePhoneNumberField("Mazen1234")
+                .verifyFunctionalityWhenUserEnterCharactersWithNumbersIntoThePhoneNumberField(PropertiesReader.getProperty("invalidPhone"))
                 .isValidationMessageDisplayed("Phone number should contain only digits.");
     }
 
@@ -183,7 +183,7 @@ public class login {
     @Test(priority = 15)
     public void verifyFunctionalityWhenUserEnterPhoneNumberNotExist() {
          new Login_Page(driver)
-                 .verifyFunctionalityWhenUserEnterPhoneNumberNotExist("012023543540")
+                 .verifyFunctionalityWhenUserEnterPhoneNumberNotExist(PropertiesReader.getProperty("phoneNumberNotExists"))
                  .isNotLoggedIn("This email or phone doesn't exist");
     }
 

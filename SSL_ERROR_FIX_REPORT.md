@@ -104,8 +104,8 @@ protected void closeBrowser() {
 </dependency>
 ```
 
-### 3. loginExcution.Lo.java
-**Location:** `src/test/java/loginExcution.Lo.java`
+### 3. loginExecution.Lo.java
+**Location:** `src/test/java/loginExecution.Lo.java`
 
 **Status:** ✅ Already correctly implemented with:
 - `@BeforeClass` for driver initialization
@@ -196,7 +196,7 @@ options.addArguments("--v=1");
 
 - ✅ `src/main/java/BaseTest/Test_Base.java` - Enhanced driver initialization with SSL handling and retry logic
 - ✅ `pom.xml` - Updated Selenium version to 4.25.0
-- ✅ `src/test/java/loginExcution.Lo.java` - Already correctly configured
+- ✅ `src/test/java/loginExecution.Lo.java` - Already correctly configured
 
 ## Next Steps
 

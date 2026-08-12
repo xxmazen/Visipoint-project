@@ -89,7 +89,7 @@
    - Added null driver validation in constructor
    - Added alternative no-arg constructor
 
-2. **D:\Visipoint\src\test\java\loginExcution\Login.java**
+2. **D:\Visipoint\src\test\java\loginExecution\Login.java**
    - Added SSL certificate handling options
    - Added instance variable for testBase
    - Improved error handling and logging
@@ -101,7 +101,7 @@
    - Fixed VerifyLoginWithInvalidPassword() to enter email/password
    - Fixed VerifyLoginWithInvalidCredentials() to enter email/password
 
-4. **D:\Visipoint\src\test\java\signupExcution\signUP.java**
+4. **D:\Visipoint\src\test\java\signupExecution\signUP.java**
    - Complete rewrite for proper WebDriver initialization
    - Changed to composition pattern instead of inheritance
    - Added SSL certificate handling

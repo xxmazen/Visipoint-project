@@ -124,8 +124,8 @@ Prevents timeouts while waiting for non-critical resources
 ✅ Error context preservation
 ```
 
-### 2. loginExcution.Lo.java
-**Location:** `src/test/java/loginExcution.Lo.java`
+### 2. loginExecution.Lo.java
+**Location:** `src/test/java/loginExecution.Lo.java`
 
 **Enhanced with:**
 ```java
@@ -267,7 +267,7 @@ options.addArguments("--proxy-server=proxy.company.com:8080");
 
 ## Next Steps
 
-1. **Run the test:** Execute loginExcution.Lo test class
+1. **Run the test:** Execute loginExecution.Lo test class
 2. **Monitor output:** Check console for detailed diagnostic messages
 3. **Validate success:** Look for "Successfully navigated!" and page title in logs
 4. **If still failing:** 

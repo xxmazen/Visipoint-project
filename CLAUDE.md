@@ -13,8 +13,8 @@ Selenium-based test automation framework for the Visipoint platform, covering au
 mvn test
 
 # Run a specific test class
-mvn test -Dtest=loginExcution.Login
-mvn test -Dtest=signupExcution.signUP
+mvn test -Dtest=loginExecution.login
+mvn test -Dtest=signupExecution.signUP
 
 # Run tests by group
 mvn test -Dgroups="Smoke testing"
@@ -46,8 +46,8 @@ The framework uses **Page Object Model (POM)** with a factory-based driver layer
 - `SignUpPOM/Sign_Up_Page.java` — Two distinct sign-up workflows: Visipoint Passport and Company Dashboard
 
 **Test Execution (`src/test/java/`)**
-- `loginExcution/Login.java` — Login test cases
-- `signupExcution/signUP.java` — Sign-up test cases
+- `loginExecution/Login.java` — Login test cases
+- `signupExecution/signUP.java` — Sign-up test cases
 
 POM methods return `this` for method chaining (e.g., `.login("email", "pass").assertLoggedIn("expected")`).
 

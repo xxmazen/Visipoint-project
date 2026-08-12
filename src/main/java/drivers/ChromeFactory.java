@@ -21,6 +21,9 @@ public class ChromeFactory extends AbstractDrive {
             options.setPageLoadStrategy(PageLoadStrategy.EAGER);
             return options;
       }
+    public static void getDriver(){
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
+    }
     @Override
     public WebDriver setupDriver() {
         return new ChromeDriver(options());

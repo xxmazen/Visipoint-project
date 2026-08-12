@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Visipoint QC Test Suite" verbose="2" parallel="false">
-    <listeners>
-        <listener class-name="Listeners.CustomListeners"/>
-    </listeners>
-
     <test name="Login Tests">
         <classes>
-            <class name="loginExcution.Login"/>
+            <class name="loginExecution.login"/>
         </classes>
     </test>
-
     <test name="SignUp Tests">
         <classes>
-            <class name="signupExcution.signUP"/>
+            <class name="signupExecution.signUP"/>
+        </classes>
+    </test>
+    <test name="PassportPage Tests">
+        <classes>
+            <class name="PassportPageExecution.PassportPage"/>
         </classes>
     </test>
 </suite>
